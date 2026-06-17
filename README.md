@@ -10,22 +10,20 @@ A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearc
 hermes-skills-collection/
 ├── README.md
 ├── research/                         ← 市场调研类
-│   └── local-competitive-analysis/
-│       └── SKILL.md
+│   ├── local-competitive-analysis/
+│   ├── arxiv-paper-summarizer/
+│   └── competitor-news-monitor/
 ├── web-analysis/                     ← Web 技术分析类
 │   └── tech-stack-detector/
-│       └── SKILL.md
 ├── monitoring/                       ← 定时监控类
 │   └── product-pricing-tracker/
-│       └── SKILL.md
 ├── content-creation/                 ← 内容创作类
 │   ├── newsletter-digest/
-│   │   └── SKILL.md
 │   └── content-repurposer/
-│       └── SKILL.md
+├── dev-tools/                        ← 开发工具类
+│   └── project-scaffolder/
 └── lifestyle/                        ← 生活出行类
     └── travel-itinerary-planner/
-        └── SKILL.md
 ```
 
 ---
@@ -36,32 +34,40 @@ hermes-skills-collection/
 
 | Skill | Description | Parameters | Install |
 |-------|-------------|------------|---------|
-| **local-competitive-analysis** | Analyze local competitors for a specific business type in a given city. Auto-detects location via IP. Produces structured market reports with SWOT, market gap analysis, and strategic recommendations. | `industry` (req), `location` (opt) | [install link](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/research/local-competitive-analysis/SKILL.md) |
+| **local-competitive-analysis** | Analyze local competitors. Auto-detects location via IP. SWOT, market gap, strategic recommendations. | `industry` (req), `location` (opt) | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/research/local-competitive-analysis/SKILL.md) |
+| **competitor-news-monitor** | Monitor competitors for news, launches, funding, market moves. Pairs with cron for automated briefings. | `competitor_list` (req) | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/research/competitor-news-monitor/SKILL.md) |
+| **arxiv-paper-summarizer** | Summarize arXiv papers in English or Chinese. Extracts method, results, limitations. Supports batch + cron monitoring. | `paper_id` or `search_query` (req) | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/research/arxiv-paper-summarizer/SKILL.md) |
 
 ### 🌐 Web Analysis
 
 | Skill | Description | Parameters | Install |
 |-------|-------------|------------|---------|
-| **tech-stack-detector** | Analyze any website's technology stack — detect frameworks, CDNs, analytics, hosting, and JS libraries from HTTP headers, HTML, browser globals, DNS, and SSL. | `url` (req) | [install link](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/web-analysis/tech-stack-detector/SKILL.md) |
+| **tech-stack-detector** | Detect frameworks, CDNs, hosting, analytics, JS libs from any URL using headers, HTML, browser globals, DNS, SSL. | `url` (req) | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/web-analysis/tech-stack-detector/SKILL.md) |
 
 ### 📊 Monitoring
 
 | Skill | Description | Parameters | Install |
 |-------|-------------|------------|---------|
-| **product-pricing-tracker** | Monitor competitor or product pricing over time. Scrapes pricing pages, detects changes (price drops/increases, new plans, removed features), and generates change reports. Designed to pair with cron for recurring checks. | `url` (req), `product_name` (req) | [install link](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/monitoring/product-pricing-tracker/SKILL.md) |
+| **product-pricing-tracker** | Track pricing changes over time. Baseline snapshot + change detection. Pairs with cron for recurring checks. | `url` (req), `product_name` (req) | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/monitoring/product-pricing-tracker/SKILL.md) |
 
 ### ✍️ Content Creation
 
 | Skill | Description | Parameters | Install |
 |-------|-------------|------------|---------|
-| **newsletter-digest** | Generate a curated newsletter or weekly digest on any topic. Searches multiple sources, summarizes key stories, and formats output as a polished newsletter ready to send. Pairs with cron for automation. | `topic` (req), `timeframe` (opt), `language` (opt) | [install link](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/content-creation/newsletter-digest/SKILL.md) |
-| **content-repurposer** | Transform a single piece of content into multiple platform-optimized formats: Twitter threads, LinkedIn posts, 小红书文案, newsletter blurbs, key takeaways, and more. | `source` (req — URL or text), `formats` (req) | [install link](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/content-creation/content-repurposer/SKILL.md) |
+| **newsletter-digest** | Generate curated newsletters / weekly digests on any topic. Multi-source research + polished template. | `topic` (req), `timeframe`/`language` (opt) | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/content-creation/newsletter-digest/SKILL.md) |
+| **content-repurposer** | One piece of content → Twitter thread, LinkedIn post, 小红书文案, newsletter blurb, key takeaways. | `source` (req), `formats` (req) | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/content-creation/content-repurposer/SKILL.md) |
+
+### 🛠️ Dev Tools
+
+| Skill | Description | Parameters | Install |
+|-------|-------------|------------|---------|
+| **project-scaffolder** | Generate complete project skeleton from natural language. Config files, .gitignore, README, optional git init. | `description` (req — e.g. "FastAPI + SQLAlchemy") | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/dev-tools/project-scaffolder/SKILL.md) |
 
 ### 🏝️ Lifestyle
 
 | Skill | Description | Parameters | Install |
 |-------|-------------|------------|---------|
-| **travel-itinerary-planner** | Generate a day-by-day travel itinerary for any destination. Researches attractions, restaurants, transportation, and practical tips. Covers budget breakdown, packing checklist, and alternative plans. | `destination` (req), `days` (req), `travel_style` (opt), `interests` (opt) | [install link](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/travel-itinerary-planner/SKILL.md) |
+| **travel-itinerary-planner** | Day-by-day travel itinerary. Attractions, dining, logistics, budget, packing list, alternative plans. | `destination` (req), `days` (req), `style`/`interests` (opt) | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/travel-itinerary-planner/SKILL.md) |
 
 ---
 
@@ -73,37 +79,26 @@ hermes-skills-collection/
 hermes skills install <raw-url-to-SKILL.md>
 ```
 
-Example:
-
-```bash
-hermes skills install https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/research/local-competitive-analysis/SKILL.md
-```
-
 ### Use a skill
-
-Once installed, load the skill and ask:
 
 ```bash
 hermes -s local-competitive-analysis
 # or
 hermes -s tech-stack-detector
-# or
-hermes -s product-pricing-tracker
 ```
 
 Then prompt:
 
 > *"Analyze the ramen market in Shibuya, Tokyo"*
-> *"I want to open a coffee shop. What's the local competition like?"*
 > *"What tech stack does stripe.com use?"*
-> *"Analyze https://vercel.com — what are they built with?"*
 > *"Track Notion's pricing for me"*
-> *"Has Vercel changed their pricing since last month?"*
+> *"Monitor OpenAI, Anthropic, and Google DeepMind"*
+> *"Summarize https://arxiv.org/abs/2401.12345"*
+> *"帮我总结这篇 arxiv 论文，用中文"*
 > *"Generate a weekly AI newsletter about LLMs"*
-> *"Turn this blog post into a Twitter thread and LinkedIn post"*
-> *"帮我把我这篇英文文章改成小红书文案"*
+> *"Turn this blog post into a Twitter thread"*
+> *"Scaffold a FastAPI project with SQLAlchemy and pytest"*
 > *"Plan a 4-day trip to Kyoto"*
-> *"I have one day in Shanghai. What should I do?"*
 
 ---
 
