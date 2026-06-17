@@ -11,8 +11,10 @@ hermes-skills-collection/
 ├── README.md
 ├── research/
 │   └── local-competitive-analysis/
-│       ├── SKILL.md        # Local market competitive analysis skill
-│       └── (future skills)
+│       └── SKILL.md              # Local market competitive analysis
+├── web-analysis/
+│   └── tech-stack-detector/
+│       └── SKILL.md              # Website technology stack analysis
 └── (more categories coming)
 ```
 
@@ -22,9 +24,15 @@ hermes-skills-collection/
 
 ### 🔬 Research
 
-| Skill | Description | Industry | Location | Install |
-|-------|-------------|----------|----------|---------|
-| **local-competitive-analysis** | Analyze local competitors for a specific business type in a given city. Auto-detects location via IP. Produces structured market reports with SWOT, market gap analysis, and strategic recommendations. | Required | Optional (auto-detect) | `hermes skills install https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/research/local-competitive-analysis/SKILL.md` |
+| Skill | Description | Parameters | Install |
+|-------|-------------|------------|---------|
+| **local-competitive-analysis** | Analyze local competitors for a specific business type in a given city. Auto-detects location via IP. Produces structured market reports with SWOT, market gap analysis, and strategic recommendations. | `industry` (req), `location` (opt) | `hermes skills install https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/research/local-competitive-analysis/SKILL.md` |
+
+### 🌐 Web Analysis
+
+| Skill | Description | Parameters | Install |
+|-------|-------------|------------|---------|
+| **tech-stack-detector** | Analyze any website's technology stack — detect frameworks, CDNs, analytics, hosting, and JS libraries from HTTP headers, HTML, browser globals, DNS, and SSL. | `url` (req) | `hermes skills install https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/web-analysis/tech-stack-detector/SKILL.md` |
 
 ---
 
@@ -55,6 +63,8 @@ Then prompt:
 > *"Analyze the ramen market in Shibuya, Tokyo"*
 > *"I want to open a coffee shop. What's the local competition like?"*
 > *"Research bakeries near me"*
+> *"What tech stack does stripe.com use?"*
+> *"Analyze https://vercel.com — what are they built with?"*
 
 ---
 
