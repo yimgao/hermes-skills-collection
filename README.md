@@ -36,6 +36,7 @@ hermes-skills-collection/
 | **local-competitive-analysis** | Analyze local competitors. Auto IP location. SWOT + market gap. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/research/local-competitive-analysis/SKILL.md) |
 | **competitor-news-monitor** | Track competitor news, launches, funding. Pairs with cron. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/research/competitor-news-monitor/SKILL.md) |
 | **arxiv-paper-summarizer** | Summarize arXiv papers. English/中文. Batch + cron. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/research/arxiv-paper-summarizer/SKILL.md) |
+| **restaurant-site-finder** | Find optimal US cities for a restaurant. Population, demo, competitors, rent, growth. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/research/restaurant-site-finder/SKILL.md) |
 
 ### 🌐 Web Analysis
 | Skill | Description | Install |
