@@ -88,3 +88,32 @@ Check:
 ✅ Action had 3 concrete steps
 ⚠️ Result could be more quantified — try "reduced churn by 15%"
 ```
+
+---
+
+## 📋 Output Example
+
+**Mock Interview: Product Manager at Google**
+
+```
+# Interview Prep: Product Manager at Google
+
+## Focus Areas
+1. Behavioral — 3 STAR stories (leadership, conflict, failure)
+2. Technical — Product design + estimation
+3. Case — 1 product sense question
+
+## Practice Question 1
+Q: Tell me about a time you led a cross-functional project.
+
+**Your STAR answer:**
+S — "At my previous startup, we needed to launch a feature in 6 weeks..."
+T — "I led engineering, design, and marketing..."
+A — "First, aligned stakeholders... then set up weekly syncs..."
+R — "Shipped on time, engagement +25%"
+
+## Feedback
+✅ Situation specific (startup, 6-week timeline)
+✅ Action uses "I" ✅ Result quantified
+⚠️ Practice reducing to 75 seconds
+```

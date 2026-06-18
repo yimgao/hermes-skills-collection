@@ -74,3 +74,31 @@ Show original vs converted, with line count comparison.
 | Markdown → CSV | ✅ |
 | JSON → CSV | ✅ (flat objects) |
 | CSV → JSON | ✅ |
+| JSON → Markdown table | ✅ |
+
+---
+
+## 📋 Output Example
+
+**JSON input:**
+```json
+{"name": "Alice", "role": "PM", "years": 5}
+```
+
+**YAML output:**
+```yaml
+name: Alice
+role: PM
+years: 5
+```
+
+**Markdown table output:**
+| name | role | years |
+|------|------|-------|
+| Alice | PM | 5 |
+
+**CSV output:**
+```
+name,role,years
+Alice,PM,5
+```

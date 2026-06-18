@@ -83,3 +83,30 @@ Week 5+: Mastery
 | Sat | Rest | — | — |
 | Sun | {weak area} | Extra practice | 1h |
 ```
+
+---
+
+## 📋 Output Example
+
+**Input:** "30 days for AWS Solutions Architect, 2h/day"
+
+```
+# Study Plan: AWS Solutions Architect
+
+## Weekly Overview
+| Week | Focus | Hours |
+|------|-------|-------|
+| 1 | Foundation (Compute, Storage) | 14 |
+| 2 | Foundation (DB, Security) | 14 |
+| 3 | Practice tests | 14 |
+| 4 | Full mocks + review | 14 |
+
+## Day-by-Day: Week 1
+| Day | Topic | Time |
+|-----|-------|------|
+| Mon | EC2 | 2h |
+| Tue | S3 | 2h |
+| Wed | VPC | 2h |
+| Thu | Quiz W1 | 2h |
+| Fri | IAM | 2h |
+```
