@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**24 skills · 10 categories**
+**45 skills · 14 categories**
 
 ---
 
@@ -10,15 +10,20 @@ A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearc
 
 ```
 hermes-skills-collection/
-├── meta/                  ← 技能中心
-├── research/              ← 市场调研类 (3)
-├── web-analysis/          ← Web 技术分析类 (1)
-├── monitoring/            ← 定时监控类 (1)
-├── data-analysis/         ← 数据分析类 (3)
-├── content-creation/      ← 内容创作类 (4)
-├── dev-tools/             ← 开发工具类 (4)
-├── ai-tools/              ← AI 工具类 (3)
-└── lifestyle/             ← 生活出行类 (4)
+├── meta/              ← 技能中心 (1)
+├── research/          ← 市场调研类 (5)
+├── web-analysis/      ← Web 技术分析类 (1)
+├── monitoring/        ← 定时监控类 (1)
+├── business/          ← 商业计划类 (3)
+├── career/            ← 求职求职类 (5)
+├── communication/     ← 沟通写作类 (2)
+├── data-analysis/     ← 数据分析类 (3)
+├── content-creation/  ← 内容创作类 (7)
+├── dev-tools/         ← 开发工具类 (4)
+├── ai-tools/          ← AI 工具类 (3)
+├── learning/          ← 学习规划类 (3)
+├── lifestyle/         ← 生活出行类 (4)
+└── utility/           ← 系统工具类 (3)
 ```
 
 ---
@@ -26,29 +31,35 @@ hermes-skills-collection/
 ## 📦 Skills
 
 ### 🧩 Meta
+
 | Skill | Description | Install |
 |-------|-------------|---------|
 | **skill-hub** | Discover which skill to use for any task. Lists all skills with triggers and recommendations. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/meta/skill-hub/SKILL.md) |
 
 ### 🔬 Research
+
 | Skill | Description | Install |
 |-------|-------------|---------|
 | **local-competitive-analysis** | Analyze local competitors. Auto IP location. SWOT + market gap. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/research/local-competitive-analysis/SKILL.md) |
 | **competitor-news-monitor** | Track competitor news, launches, funding. Pairs with cron. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/research/competitor-news-monitor/SKILL.md) |
 | **arxiv-paper-summarizer** | Summarize arXiv papers. English/中文. Batch + cron. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/research/arxiv-paper-summarizer/SKILL.md) |
 | **restaurant-site-finder** | Find optimal US cities for a restaurant. Population, demo, competitors, rent, growth. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/research/restaurant-site-finder/SKILL.md) |
+| **site-selection-pipeline** | End-to-end site selection: demographics → competition → financial model. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/research/site-selection-pipeline/SKILL.md) |
 
 ### 🌐 Web Analysis
+
 | Skill | Description | Install |
 |-------|-------------|---------|
 | **tech-stack-detector** | Detect frameworks, CDN, hosting, analytics from any URL. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/web-analysis/tech-stack-detector/SKILL.md) |
 
 ### 📊 Monitoring
+
 | Skill | Description | Install |
 |-------|-------------|---------|
 | **product-pricing-tracker** | Track pricing changes. Baseline + cron. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/monitoring/product-pricing-tracker/SKILL.md) |
 
 ### 📊 Data Analysis
+
 | Skill | Description | Install |
 |-------|-------------|---------|
 | **json-explorer** | Explore complex JSON: schema, depth, types, anomalies. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/data-analysis/json-explorer/SKILL.md) |
@@ -56,6 +67,7 @@ hermes-skills-collection/
 | **git-history-analyst** | Analyze git repos: contributors, churn, hotspots, trends. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/data-analysis/git-history-analyst/SKILL.md) |
 
 ### 🛠️ Dev Tools
+
 | Skill | Description | Install |
 |-------|-------------|---------|
 | **project-scaffolder** | Generate project skeletons from description. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/dev-tools/project-scaffolder/SKILL.md) |
@@ -64,27 +76,74 @@ hermes-skills-collection/
 | **env-setup-debugger** | Diagnose project environment issues. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/dev-tools/env-setup-debugger/SKILL.md) |
 
 ### ✍️ Content Creation
+
 | Skill | Description | Install |
 |-------|-------------|---------|
-| **newsletter-digest** | Curated weekly digests. Cron-ready. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/content-creation/newsletter-digest/SKILL.md) |
 | **content-repurposer** | One content → Twitter, LinkedIn, 小红书, newsletter. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/content-creation/content-repurposer/SKILL.md) |
+| **xiaohongshu-post-writer** | 小红书爆款笔记生成器. AI 决定标题/内容/标签. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/content-creation/xiaohongshu-post-writer/SKILL.md) |
+| **xiaohongshu-tool** | 小红书浏览器操作 — 搜索/发布/互动. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/content-creation/xiaohongshu-tool/SKILL.md) |
+| **newsletter-digest** | Curated weekly digests. Cron-ready. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/content-creation/newsletter-digest/SKILL.md) |
 | **twitter-thread-writer** | Optimized Twitter threads. ≤280 chars, hook, CTA. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/content-creation/twitter-thread-writer/SKILL.md) |
 | **brand-voice-generator** | Analyze brand communication → voice guide. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/content-creation/brand-voice-generator/SKILL.md) |
+| **report-formatter** | Format analysis reports for sharing. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/content-creation/report-formatter/SKILL.md) |
 
 ### 🧠 AI Tools
+
 | Skill | Description | Install |
 |-------|-------------|---------|
 | **prompt-benchmarker** | A/B test prompts, score outputs, recommend best. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/ai-tools/prompt-benchmarker/SKILL.md) |
 | **model-comparator** | Compare AI models: pricing, context, benchmarks. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/ai-tools/model-comparator/SKILL.md) |
 | **llm-output-validator** | Verify LLM output: facts, format, consistency. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/ai-tools/llm-output-validator/SKILL.md) |
 
+### 💼 Business
+
+| Skill | Description | Install |
+|-------|-------------|---------|
+| **business-plan-generator** | Generate complete business plans from concept. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/business/business-plan-generator/SKILL.md) |
+| **market-sizing** | TAM / SAM / SOM calculations with data sources. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/business/market-sizing/SKILL.md) |
+| **pitch-deck-helper** | Structure pitch deck slides for investors. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/business/pitch-deck-helper/SKILL.md) |
+
+### 🎯 Career
+
+| Skill | Description | Install |
+|-------|-------------|---------|
+| **job-hunt-pipeline** | Full job search pipeline: match → tailor → apply → track. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/career/job-hunt-pipeline/SKILL.md) |
+| **jd-resume-matcher** | Match resume against job description. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/career/jd-resume-matcher/SKILL.md) |
+| **resume-tailor** | Customize resume for specific jobs. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/career/resume-tailor/SKILL.md) |
+| **cover-letter-writer** | Generate job application cover letters. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/career/cover-letter-writer/SKILL.md) |
+| **job-tracker** | Track job applications: company, role, status, notes. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/career/job-tracker/SKILL.md) |
+
+### 💬 Communication
+
+| Skill | Description | Install |
+|-------|-------------|---------|
+| **email-composer** | Draft professional emails. Business/job/client tone. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/communication/email-composer/SKILL.md) |
+| **presentation-helper** | Structure presentations from notes/content. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/communication/presentation-helper/SKILL.md) |
+
+### 📚 Learning
+
+| Skill | Description | Install |
+|-------|-------------|---------|
+| **flashcard-generator** | Convert notes/articles into study flashcards. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/learning/flashcard-generator/SKILL.md) |
+| **interview-coach** | Practice STAR method interviews with feedback. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/learning/interview-coach/SKILL.md) |
+| **study-planner** | Create study plans for exams/certifications. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/learning/study-planner/SKILL.md) |
+
 ### 🏝️ Lifestyle
+
 | Skill | Description | Install |
 |-------|-------------|---------|
 | **travel-itinerary-planner** | Day-by-day trip plans with budget + logistics. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/travel-itinerary-planner/SKILL.md) |
 | **gift-finder** | Personalized gift recommendations. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/gift-finder/SKILL.md) |
 | **recipe-generator** | Recipes from ingredients you have. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/recipe-generator/SKILL.md) |
 | **fitness-planner** | Weekly workout plans. Goals + equipment based. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/fitness-planner/SKILL.md) |
+
+### 🔧 Utility
+
+| Skill | Description | Install |
+|-------|-------------|---------|
+| **disk-cleanup-advisor** | Scan drive usage, find large files, suggest cleanup. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/utility/disk-cleanup-advisor/SKILL.md) |
+| **file-organizer** | Organize cluttered folders by type/date/project. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/utility/file-organizer/SKILL.md) |
+| **format-converter** | Convert between data formats (JSON/CSV/XML/YAML). | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/utility/format-converter/SKILL.md) |
 
 ---
 
@@ -99,6 +158,7 @@ hermes -s skill-hub
 ```
 
 Then prompt:
+
 > *"What skills do you have?"*
 > *"Analyze the ramen market near me"*
 > *"What tech stack does stripe.com use?"*
@@ -109,6 +169,35 @@ Then prompt:
 > *"Monitor OpenAI this week"*
 > *"I have chicken and broccoli — what can I cook?"*
 > *"Plan a 4-day trip to Kyoto"*
+> *"帮我写一篇小红书笔记"*
+> *"帮我申请Google的SDE岗位"*
+
+## Skills 标准格式
+
+每个 skill 遵循 Hermes 标准格式：
+
+```yaml
+---
+name: skill-name
+description: "One-line description of what this skill does"
+version: 1.0.0
+author: yimgao
+license: MIT
+metadata:
+  hermes:
+    tags: [category, keywords]
+    related_skills: [other-skills]
+---
+```
+
+每个 SKILL.md 包含：
+1. **YAML frontmatter** — 元数据
+2. **Overview** — 技能概述
+3. **When to Use** — 什么时候用
+4. **Workflow** — 步骤 1/2/3
+5. **Common Pitfalls** — 常见陷阱
+6. **Verification Checklist** — 验证清单
+7. **Data Sources & Accuracy** — 数据来源说明
 
 ---
 
