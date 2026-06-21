@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**46 skills · 15 categories**
+**47 skills · 15 categories**
 
 ---
 
@@ -52,6 +52,7 @@ hermes-skills-collection/
 | Skill | Description | Install |
 |-------|-------------|---------|
 | **tech-stack-detector** | Detect frameworks, CDN, hosting, analytics from any URL. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/web-analysis/tech-stack-detector/SKILL.md) |
+| **seo-auditor** | Full on-page & technical SEO audit — meta tags, headings, schema, robots.txt, social tags, performance indicators. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/web-analysis/seo-auditor/SKILL.md) |
 
 ### 📊 Monitoring
 
