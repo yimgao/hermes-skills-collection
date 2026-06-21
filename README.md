@@ -2,13 +2,13 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**45 skills · 14 categories**
+**46 skills · 15 categories**
 
 ---
 
 ## 📁 Structure
 
-```
+```text
 hermes-skills-collection/
 ├── meta/              ← 技能中心 (1)
 ├── research/          ← 市场调研类 (5)
@@ -20,6 +20,7 @@ hermes-skills-collection/
 ├── data-analysis/     ← 数据分析类 (3)
 ├── content-creation/  ← 内容创作类 (7)
 ├── dev-tools/         ← 开发工具类 (4)
+├── devops/            ← CI/CD 与自动化类 (1)
 ├── ai-tools/          ← AI 工具类 (3)
 ├── learning/          ← 学习规划类 (3)
 ├── lifestyle/         ← 生活出行类 (4)
@@ -74,6 +75,12 @@ hermes-skills-collection/
 | **api-doc-generator** | Auto-generate API docs from code routes/schemas. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/dev-tools/api-doc-generator/SKILL.md) |
 | **code-review-helper** | Structured code review from diffs/PRs. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/dev-tools/code-review-helper/SKILL.md) |
 | **env-setup-debugger** | Diagnose project environment issues. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/dev-tools/env-setup-debugger/SKILL.md) |
+
+### ⚙️ DevOps
+
+| Skill | Description | Install |
+|-------|-------------|---------|
+| **cron-pipeline-builder** | Build automated cron pipelines: chaining, watchdogs, multi-stage workflows. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/devops/cron-pipeline-builder/SKILL.md) |
 
 ### ✍️ Content Creation
 
@@ -171,6 +178,8 @@ Then prompt:
 > *"Plan a 4-day trip to Kyoto"*
 > *"帮我写一篇小红书笔记"*
 > *"帮我申请Google的SDE岗位"*
+> *"Set up a cron pipeline: collect news at 7AM, analyze at 7:05, deliver at 7:10"*
+> *"Monitor disk space and alert me above 80%"*
 
 ## Skills 标准格式
 
