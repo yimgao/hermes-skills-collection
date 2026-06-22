@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**47 skills · 15 categories**
+**48 skills · 16 categories**
 
 ---
 
@@ -24,7 +24,8 @@ hermes-skills-collection/
 ├── ai-tools/          ← AI 工具类 (3)
 ├── learning/          ← 学习规划类 (3)
 ├── lifestyle/         ← 生活出行类 (4)
-└── utility/           ← 系统工具类 (3)
+├── utility/           ← 系统工具类 (3)
+└── security/          ← 安全审计类 (1)
 ```
 
 ---
@@ -152,6 +153,12 @@ hermes-skills-collection/
 | **disk-cleanup-advisor** | Scan drive usage, find large files, suggest cleanup. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/utility/disk-cleanup-advisor/SKILL.md) |
 | **file-organizer** | Organize cluttered folders by type/date/project. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/utility/file-organizer/SKILL.md) |
 | **format-converter** | Convert between data formats (JSON/CSV/XML/YAML). | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/utility/format-converter/SKILL.md) |
+
+### 🔒 Security
+
+| Skill | Description | Install |
+|-------|-------------|---------|
+| **password-auditor** | Audit password strength, check breaches via HIBP API, generate secure passwords/passphrases, detect reuse. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/security/password-auditor/SKILL.md) |
 
 ---
 
