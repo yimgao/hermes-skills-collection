@@ -87,6 +87,7 @@ This is a meta-skill — it helps you find the right skill for whatever you want
 | **gift-finder** | Find the perfect gift for someone |
 | **recipe-generator** | Generate recipes from ingredients you have |
 | **fitness-planner** | Weekly workout plans based on goals and equipment |
+| **habit-tracker** | Define habits, check in daily, monitor streaks, get weekly summaries |
 
 ---
 
