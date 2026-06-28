@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**52 skills · 17 categories**
+**53 skills · 17 categories**
 
 ---
 
@@ -155,6 +155,7 @@ hermes-skills-collection/
 | Skill | Description | Install |
 |-------|-------------|---------|
 | **disk-cleanup-advisor** | Scan drive usage, find large files, suggest cleanup. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/utility/disk-cleanup-advisor/SKILL.md) |
+| **web-clipper** | Save, organize, search, and retrieve web bookmarks. Local JSON storage. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/utility/web-clipper/SKILL.md) |
 | **file-organizer** | Organize cluttered folders by type/date/project. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/utility/file-organizer/SKILL.md) |
 | **format-converter** | Convert between data formats (JSON/CSV/XML/YAML). | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/utility/format-converter/SKILL.md) |
 
