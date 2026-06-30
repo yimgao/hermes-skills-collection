@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**53 skills · 17 categories**
+**54 skills · 17 categories**
 
 ---
 
@@ -13,7 +13,7 @@ hermes-skills-collection/
 ├── meta/              ← 技能中心 (1)
 ├── research/          ← 市场调研类 (5)
 ├── web-analysis/      ← Web 技术分析类 (1)
-├── monitoring/        ← 定时监控类 (1)
+├── monitoring/        ← 定时监控类 (2)
 ├── business/          ← 商业计划类 (3)
 ├── career/            ← 求职求职类 (5)
 ├── communication/     ← 沟通写作类 (2)
@@ -61,6 +61,7 @@ hermes-skills-collection/
 | Skill | Description | Install |
 |-------|-------------|---------|
 | **product-pricing-tracker** | Track pricing changes. Baseline + cron. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/monitoring/product-pricing-tracker/SKILL.md) |
+| **website-health-monitor** | Monitor uptime, SSL expiry, DNS, response time, content changes. Cron-ready. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/monitoring/website-health-monitor/SKILL.md) |
 
 ### 📊 Data Analysis
 
