@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**55 skills · 17 categories**
+**56 skills · 17 categories**
 
 ---
 
@@ -20,7 +20,7 @@ hermes-skills-collection/
 ├── data-analysis/     ← 数据分析类 (4)
 ├── content-creation/  ← 内容创作类 (7)
 ├── dev-tools/         ← 开发工具类 (4)
-├── devops/            ← CI/CD 与自动化类 (1)
+├── devops/            ← CI/CD 与自动化类 (2)
 ├── ai-tools/          ← AI 工具类 (3)
 ├── learning/          ← 学习规划类 (3)
 ├── lifestyle/         ← 生活出行类 (4)
@@ -87,6 +87,7 @@ hermes-skills-collection/
 | Skill | Description | Install |
 |-------|-------------|---------|
 | **cron-pipeline-builder** | Build automated cron pipelines: chaining, watchdogs, multi-stage workflows. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/devops/cron-pipeline-builder/SKILL.md) |
+| **log-analyzer** | Parse, filter, and analyze log files from web servers, apps, syslog, or Docker — extract error patterns, timelines, and root causes using grep/awk/jq/Python. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/devops/log-analyzer/SKILL.md) |
 
 ### ✍️ Content Creation
 
