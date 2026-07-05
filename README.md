@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**56 skills · 17 categories**
+**57 skills · 17 categories**
 
 ---
 
@@ -100,6 +100,7 @@ hermes-skills-collection/
 | **twitter-thread-writer** | Optimized Twitter threads. ≤280 chars, hook, CTA. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/content-creation/twitter-thread-writer/SKILL.md) |
 | **brand-voice-generator** | Analyze brand communication → voice guide. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/content-creation/brand-voice-generator/SKILL.md) |
 | **report-formatter** | Format analysis reports for sharing. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/content-creation/report-formatter/SKILL.md) |
+| **linkedin-post-generator** | Hook-driven LinkedIn posts. ≤3000 chars, white-space optimized, algorithm-aware CTAs. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/content-creation/linkedin-post-generator/SKILL.md) |
 
 ### 🧠 AI Tools
 
@@ -200,6 +201,7 @@ Then prompt:
 > *"Plan a 4-day trip to Kyoto"*
 > *"帮我写一篇小红书笔记"*
 > *"帮我申请Google的SDE岗位"*
+> *"Write a LinkedIn post about getting rejected by Y Combinator"*
 > *"Set up a cron pipeline: collect news at 7AM, analyze at 7:05, deliver at 7:10"*
 > *"Monitor disk space and alert me above 80%"*
 
