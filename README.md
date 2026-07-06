@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**57 skills · 17 categories**
+**58 skills · 17 categories**
 
 ---
 
@@ -81,6 +81,7 @@ hermes-skills-collection/
 | **code-review-helper** | Structured code review from diffs/PRs. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/dev-tools/code-review-helper/SKILL.md) |
 | **env-setup-debugger** | Diagnose project environment issues. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/dev-tools/env-setup-debugger/SKILL.md) |
 | **dependency-auditor** | Audit deps: outdated, security vulns, stale lockfiles, unused packages across npm/pip/cargo/go/gem/maven. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/dev-tools/dependency-auditor/SKILL.md) |
+| **regex-builder** | Build, debug, explain, and translate regular expressions across PCRE/Python/JS/Go — with 30+ battle-tested patterns and live test harness. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/dev-tools/regex-builder/SKILL.md) |
 
 ### ⚙️ DevOps
 
