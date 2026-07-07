@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**58 skills · 17 categories**
+**59 skills · 17 categories**
 
 ---
 
@@ -163,6 +163,7 @@ hermes-skills-collection/
 | **web-clipper** | Save, organize, search, and retrieve web bookmarks. Local JSON storage. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/utility/web-clipper/SKILL.md) |
 | **file-organizer** | Organize cluttered folders by type/date/project. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/utility/file-organizer/SKILL.md) |
 | **format-converter** | Convert between data formats (JSON/CSV/XML/YAML). | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/utility/format-converter/SKILL.md) |
+| **pdf-toolkit** | Extract text & tables, merge, split, rotate, redact, fill forms, watermark, compress, encrypt — no GUI, no upload. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/utility/pdf-toolkit/SKILL.md) |
 
 ### 💰 Finance
 
