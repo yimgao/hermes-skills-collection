@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**59 skills · 17 categories**
+**60 skills · 17 categories**
 
 ---
 
@@ -102,6 +102,7 @@ hermes-skills-collection/
 | **brand-voice-generator** | Analyze brand communication → voice guide. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/content-creation/brand-voice-generator/SKILL.md) |
 | **report-formatter** | Format analysis reports for sharing. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/content-creation/report-formatter/SKILL.md) |
 | **linkedin-post-generator** | Hook-driven LinkedIn posts. ≤3000 chars, white-space optimized, algorithm-aware CTAs. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/content-creation/linkedin-post-generator/SKILL.md) |
+| **youtube-script-writer** | Retention-engineered YouTube scripts — 8s hook, open loops, pattern interrupts, B-roll cues, SEO metadata bundle. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/content-creation/youtube-script-writer/SKILL.md) |
 
 ### 🧠 AI Tools
 
