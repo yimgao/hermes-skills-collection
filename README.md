@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**60 skills · 17 categories**
+**61 skills · 17 categories**
 
 ---
 
@@ -23,7 +23,7 @@ hermes-skills-collection/
 ├── devops/            ← CI/CD 与自动化类 (2)
 ├── ai-tools/          ← AI 工具类 (3)
 ├── learning/          ← 学习规划类 (3)
-├── lifestyle/         ← 生活出行类 (4)
+├── lifestyle/         ← 生活出行类 (5)
 ├── utility/           ← 系统工具类 (3)
 ├── finance/           ← 个人财务类 (1)
 └── security/          ← 安全审计类 (1)
@@ -155,6 +155,7 @@ hermes-skills-collection/
 | **recipe-generator** | Recipes from ingredients you have. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/recipe-generator/SKILL.md) |
 | **fitness-planner** | Weekly workout plans. Goals + equipment based. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/fitness-planner/SKILL.md) |
 | **habit-tracker** | Define habits, check in daily, track streaks, get weekly summaries. Local JSON storage. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/habit-tracker/SKILL.md) |
+| **personal-crm** | Track people in your life — contacts, meetings, follow-ups, relationship health. Local JSON, zero cloud. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/personal-crm/SKILL.md) |
 
 ### 🔧 Utility
 
@@ -207,6 +208,8 @@ Then prompt:
 > *"Write a LinkedIn post about getting rejected by Y Combinator"*
 > *"Set up a cron pipeline: collect news at 7AM, analyze at 7:05, deliver at 7:10"*
 > *"Monitor disk space and alert me above 80%"*
+> *"I just met Sarah at a meetup, add her to my CRM"*
+> *"Who in my network haven't I talked to in 6 months?"*
 
 ## Skills 标准格式
 
