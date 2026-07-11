@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**62 skills · 17 categories**
+**63 skills · 17 categories**
 
 ---
 
@@ -15,7 +15,7 @@ hermes-skills-collection/
 ├── web-analysis/      ← Web 技术分析类 (1)
 ├── monitoring/        ← 定时监控类 (2)
 ├── business/          ← 商业计划类 (3)
-├── career/            ← 求职求职类 (5)
+├── career/            ← 求职求职类 (6)
 ├── communication/     ← 沟通写作类 (2)
 ├── data-analysis/     ← 数据分析类 (4)
 ├── content-creation/  ← 内容创作类 (7)
@@ -125,6 +125,7 @@ hermes-skills-collection/
 | Skill | Description | Install |
 |-------|-------------|---------|
 | **job-hunt-pipeline** | Full job search pipeline: match → tailor → apply → track. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/career/job-hunt-pipeline/SKILL.md) |
+| **salary-negotiation-coach** | Counter-offer scripts, market-rate data, total-comp modeling, equity negotiation, BATNA strategy + freelance rate setting. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/career/salary-negotiation-coach/SKILL.md) |
 | **jd-resume-matcher** | Match resume against job description. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/career/jd-resume-matcher/SKILL.md) |
 | **resume-tailor** | Customize resume for specific jobs. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/career/resume-tailor/SKILL.md) |
 | **cover-letter-writer** | Generate job application cover letters. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/career/cover-letter-writer/SKILL.md) |
@@ -206,6 +207,7 @@ Then prompt:
 > *"Plan a 4-day trip to Kyoto"*
 > *"帮我写一篇小红书笔记"*
 > *"帮我申请Google的SDE岗位"*
+> *"I got a $165k offer from Stripe — help me counter to $185k"*
 > *"Write a LinkedIn post about getting rejected by Y Combinator"*
 > *"Set up a cron pipeline: collect news at 7AM, analyze at 7:05, deliver at 7:10"*
 > *"Monitor disk space and alert me above 80%"*
