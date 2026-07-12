@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**63 skills · 17 categories**
+**64 skills · 17 categories**
 
 ---
 
@@ -157,6 +157,7 @@ hermes-skills-collection/
 | **fitness-planner** | Weekly workout plans. Goals + equipment based. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/fitness-planner/SKILL.md) |
 | **habit-tracker** | Define habits, check in daily, track streaks, get weekly summaries. Local JSON storage. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/habit-tracker/SKILL.md) |
 | **personal-crm** | Track people in your life — contacts, meetings, follow-ups, relationship health. Local JSON, zero cloud. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/personal-crm/SKILL.md) |
+| **sleep-tracker** | Log sleep via chat, get correlations with caffeine/stress/exercise, weekly reports, personalized sleep hygiene tips. All data local. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/sleep-tracker/SKILL.md) |
 
 ### 🔧 Utility
 
@@ -213,6 +214,9 @@ Then prompt:
 > *"Monitor disk space and alert me above 80%"*
 > *"I just met Sarah at a meetup, add her to my CRM"*
 > *"Who in my network haven't I talked to in 6 months?"*
+> *"I slept 11pm to 6:45am, felt tired, woke twice"*
+> *"What affects my sleep the most?"*
+> *"Show me my sleep debt this week"*
 
 ## Skills 标准格式
 
