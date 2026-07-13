@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**64 skills · 17 categories**
+**65 skills · 18 categories**
 
 ---
 
@@ -26,7 +26,8 @@ hermes-skills-collection/
 ├── lifestyle/         ← 生活出行类 (5)
 ├── utility/           ← 系统工具类 (3)
 ├── finance/           ← 个人财务类 (1)
-└── security/          ← 安全审计类 (1)
+├── security/          ← 安全审计类 (1)
+└── productivity/      ← 专注力与时间管理类 (1)
 ```
 
 ---
@@ -182,6 +183,12 @@ hermes-skills-collection/
 |-------|-------------|---------|
 | **password-auditor** | Audit password strength, check breaches via HIBP API, generate secure passwords/passphrases, detect reuse. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/security/password-auditor/SKILL.md) |
 
+### ⚡ Productivity
+
+| Skill | Description | Install |
+|-------|-------------|---------|
+| **pomodoro-coach** | Run Pomodoro / deep work sessions from chat — log focus blocks, track distractions, identify your peak hours, daily & weekly focus reports. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/pomodoro-coach/SKILL.md) |
+
 ---
 
 ## 🚀 Usage
@@ -214,9 +221,11 @@ Then prompt:
 > *"Monitor disk space and alert me above 80%"*
 > *"I just met Sarah at a meetup, add her to my CRM"*
 > *"Who in my network haven't I talked to in 6 months?"*
-> *"I slept 11pm to 6:45am, felt tired, woke twice"*
-> *"What affects my sleep the most?"*
-> *"Show me my sleep debt this week"*
+| *I slept 11pm to 6:45am, felt tired, woke twice*
+| *What affects my sleep the most?*
+| *Show me my sleep debt this week*
+| *Start a 25-min pomodoro on the launch deck*
+| *When am I most productive this week?*
 
 ## Skills 标准格式
 
