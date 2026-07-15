@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**66 skills · 18 categories**
+**67 skills · 19 categories**
 
 ---
 
@@ -23,10 +23,11 @@ hermes-skills-collection/
 ├── devops/            ← CI/CD 与自动化类 (2)
 ├── ai-tools/          ← AI 工具类 (3)
 ├── learning/          ← 学习规划类 (3)
-├── lifestyle/         ← 生活出行类 (5)
+├── lifestyle/         ← 生活出行类 (8)
 ├── utility/           ← 系统工具类 (3)
 ├── finance/           ← 个人财务类 (1)
 ├── security/          ← 安全审计类 (1)
+├── legal/             ← 法律合同类 (1)
 └── productivity/      ← 专注力与时间管理类 (1)
 ```
 
@@ -184,6 +185,12 @@ hermes-skills-collection/
 |-------|-------------|---------|
 | **password-auditor** | Audit password strength, check breaches via HIBP API, generate secure passwords/passphrases, detect reuse. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/security/password-auditor/SKILL.md) |
 
+### ⚖️ Legal
+
+| Skill | Description | Install |
+|-------|-------------|---------|
+| **contract-reviewer** | Review any contract — NDA, freelance SOW, SaaS TOS, lease, offer letter. Risk-scored redline + missing-protections checklist + email-ready negotiation talking points. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/legal/contract-reviewer/SKILL.md) |
+
 ### ⚡ Productivity
 
 | Skill | Description | Install |
@@ -227,6 +234,9 @@ Then prompt:
 | *Show me my sleep debt this week*
 | *Start a 25-min pomodoro on the launch deck*
 | *When am I most productive this week?*
+| *Review this freelance SOW — fair deal or red flags?*
+| *I got a job offer with broad IP assignment — what should I push back on?*
+| *Is this residential lease standard — can I negotiate the deposit clause?*
 
 ## Skills 标准格式
 
