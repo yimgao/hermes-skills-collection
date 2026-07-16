@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**67 skills · 19 categories**
+**68 skills · 19 categories**
 
 ---
 
@@ -196,6 +196,7 @@ hermes-skills-collection/
 | Skill | Description | Install |
 |-------|-------------|---------|
 | **pomodoro-coach** | Run Pomodoro / deep work sessions from chat — log focus blocks, track distractions, identify your peak hours, daily & weekly focus reports. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/pomodoro-coach/SKILL.md) |
+| **weekly-review** | GTD-style weekly review from chat — 7 guided steps (open loops, wins, lessons, role goals, rocks, inbox zero, gratitude). Auto-pulls from pomodoro, habits, sleep, expenses, CRM. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/weekly-review/SKILL.md) |
 
 ---
 
@@ -230,11 +231,14 @@ Then prompt:
 > *"I just met Sarah at a meetup, add her to my CRM"*
 > *"Who in my network haven't I talked to in 6 months?"*
 | *I slept 11pm to 6:45am, felt tired, woke twice*
-| *What affects my sleep the most?*
-| *Show me my sleep debt this week*
-| *Start a 25-min pomodoro on the launch deck*
-| *When am I most productive this week?*
-| *Review this freelance SOW — fair deal or red flags?*
+> *What affects my sleep the most?*
+> *Show me my sleep debt this week*
+> *Start a 25-min pomodoro on the launch deck*
+> *When am I most productive this week?*
+> *Sunday review time*
+> *Show me my 4-week trend*
+> *What keeps showing up as an open loop?*
+> *Review this freelance SOW — fair deal or red flags?*
 | *I got a job offer with broad IP assignment — what should I push back on?*
 | *Is this residential lease standard — can I negotiate the deposit clause?*
 
