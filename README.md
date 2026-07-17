@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**68 skills · 19 categories**
+**69 skills · 19 categories**
 
 ---
 
@@ -23,7 +23,7 @@ hermes-skills-collection/
 ├── devops/            ← CI/CD 与自动化类 (2)
 ├── ai-tools/          ← AI 工具类 (3)
 ├── learning/          ← 学习规划类 (3)
-├── lifestyle/         ← 生活出行类 (8)
+├── lifestyle/         ← 生活出行类 (9)
 ├── utility/           ← 系统工具类 (3)
 ├── finance/           ← 个人财务类 (1)
 ├── security/          ← 安全审计类 (1)
@@ -161,6 +161,7 @@ hermes-skills-collection/
 | **personal-crm** | Track people in your life — contacts, meetings, follow-ups, relationship health. Local JSON, zero cloud. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/personal-crm/SKILL.md) |
 | **sleep-tracker** | Log sleep via chat, get correlations with caffeine/stress/exercise, weekly reports, personalized sleep hygiene tips. All data local. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/sleep-tracker/SKILL.md) |
 | **symptom-diary** | Track symptoms, medications & supplements from chat — severity 1-10, body-system classification, adherence %, flare detection, side-effect flagging, doctor-ready report export. All data local. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/symptom-diary/SKILL.md) |
+| **bookshelf** | Track everything you read — books, articles, papers, audiobooks. NL logging, quotes, ratings, reading streaks, pace-to-goal, yearly recap, re-read reminders. All data local JSON. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/bookshelf/SKILL.md) |
 
 ### 🔧 Utility
 
@@ -239,8 +240,11 @@ Then prompt:
 > *Show me my 4-week trend*
 > *What keeps showing up as an open loop?*
 > *Review this freelance SOW — fair deal or red flags?*
-| *I got a job offer with broad IP assignment — what should I push back on?*
-| *Is this residential lease standard — can I negotiate the deposit clause?*
+> *I got a job offer with broad IP assignment — what should I push back on?*
+> *Is this residential lease standard — can I negotiate the deposit clause?*
+> *Add Project Hail Mary to my shelf — I just started it*
+> *Log a quote from Meditations page 42: "You have power over your mind..."*
+> *Generate my 2026 year-end reading recap*
 
 ## Skills 标准格式
 
