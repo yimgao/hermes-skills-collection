@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**69 skills · 19 categories**
+**70 skills · 19 categories**
 
 ---
 
@@ -113,6 +113,7 @@ hermes-skills-collection/
 | **prompt-benchmarker** | A/B test prompts, score outputs, recommend best. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/ai-tools/prompt-benchmarker/SKILL.md) |
 | **model-comparator** | Compare AI models: pricing, context, benchmarks. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/ai-tools/model-comparator/SKILL.md) |
 | **llm-output-validator** | Verify LLM output: facts, format, consistency. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/ai-tools/llm-output-validator/SKILL.md) |
+| **prompt-library** | Save, version, tag, search & reuse your best LLM prompts — personal prompt manager with local JSON, intent search & 1-line retrieval. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/ai-tools/prompt-library/SKILL.md) |
 
 ### 💼 Business
 
@@ -239,6 +240,10 @@ Then prompt:
 > *Sunday review time*
 > *Show me my 4-week trend*
 > *What keeps showing up as an open loop?*
+> *Save this prompt as 'cold-email-v2'*
+> *Find my prompt for writing investor updates*
+> *Use linkedin-post-formula on: getting rejected by 7 VCs in a row*
+> *Show me prompts I never used*
 > *Review this freelance SOW — fair deal or red flags?*
 > *I got a job offer with broad IP assignment — what should I push back on?*
 > *Is this residential lease standard — can I negotiate the deposit clause?*
