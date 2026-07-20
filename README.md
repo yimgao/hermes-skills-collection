@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**70 skills · 19 categories**
+**71 skills · 19 categories**
 
 ---
 
@@ -180,6 +180,7 @@ hermes-skills-collection/
 |-------|-------------|---------|
 | **personal-expense-tracker** | Log expenses by NL, categorize, set budgets, monthly reports — all through chat. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/finance/personal-expense-tracker/SKILL.md) |
 | **subscription-manager** | Track recurring subs & free trials, see true monthly burn, get renewal alerts, and find zombie subscriptions you forgot you were paying for. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/finance/subscription-manager/SKILL.md) |
+| **net-worth-tracker** | Balance-sheet tracker — log assets/liabilities by chat, monthly snapshots, trend chart, debt-payoff avalanche vs snowball, asset allocation. All local JSON. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/finance/net-worth-tracker/SKILL.md) |
 
 ### 🔒 Security
 
@@ -249,7 +250,10 @@ Then prompt:
 > *Is this residential lease standard — can I negotiate the deposit clause?*
 > *Add Project Hail Mary to my shelf — I just started it*
 > *Log a quote from Meditations page 42: "You have power over your mind..."*
-> *Generate my 2026 year-end reading recap*
+| *Generate my 2026 year-end reading recap*
+| *Set up my net worth — I have $14k cash, $32k brokerage, $51k 401k, and $1,850 on a credit card*
+| *What's my net worth trend over the last 6 months?*
+| *Compare avalanche vs snowball for my 3 debts if I throw $500/mo extra*
 
 ## Skills 标准格式
 
