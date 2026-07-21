@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**71 skills · 19 categories**
+**72 skills · 19 categories**
 
 ---
 
@@ -23,7 +23,7 @@ hermes-skills-collection/
 ├── devops/            ← CI/CD 与自动化类 (2)
 ├── ai-tools/          ← AI 工具类 (3)
 ├── learning/          ← 学习规划类 (3)
-├── lifestyle/         ← 生活出行类 (9)
+├── lifestyle/         ← 生活出行类 (10)
 ├── utility/           ← 系统工具类 (3)
 ├── finance/           ← 个人财务类 (1)
 ├── security/          ← 安全审计类 (1)
@@ -163,6 +163,7 @@ hermes-skills-collection/
 | **sleep-tracker** | Log sleep via chat, get correlations with caffeine/stress/exercise, weekly reports, personalized sleep hygiene tips. All data local. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/sleep-tracker/SKILL.md) |
 | **symptom-diary** | Track symptoms, medications & supplements from chat — severity 1-10, body-system classification, adherence %, flare detection, side-effect flagging, doctor-ready report export. All data local. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/symptom-diary/SKILL.md) |
 | **bookshelf** | Track everything you read — books, articles, papers, audiobooks. NL logging, quotes, ratings, reading streaks, pace-to-goal, yearly recap, re-read reminders. All data local JSON. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/bookshelf/SKILL.md) |
+| **home-maintenance-tracker** | Log every filter, repair, and service — HVAC, water heater, appliances, gutters, roof. NL logging, cadence scheduling, overdue alerts, warranty tracking, seasonal playbook, annual cost report. All data local JSON. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/home-maintenance-tracker/SKILL.md) |
 
 ### 🔧 Utility
 
@@ -254,6 +255,10 @@ Then prompt:
 | *Set up my net worth — I have $14k cash, $32k brokerage, $51k 401k, and $1,850 on a credit card*
 | *What's my net worth trend over the last 6 months?*
 | *Compare avalanche vs snowball for my 3 debts if I throw $500/mo extra*
+| *I just changed the furnace filter — 16x25x1 MERV 11, $14*
+| *What's due for home maintenance this month?*
+| *My water heater warranty expired — what should I do?*
+| *Generate my fall home maintenance playbook*
 
 ## Skills 标准格式
 
