@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**72 skills · 19 categories**
+**73 skills · 19 categories**
 
 ---
 
@@ -201,6 +201,7 @@ hermes-skills-collection/
 |-------|-------------|---------|
 | **pomodoro-coach** | Run Pomodoro / deep work sessions from chat — log focus blocks, track distractions, identify your peak hours, daily & weekly focus reports. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/pomodoro-coach/SKILL.md) |
 | **weekly-review** | GTD-style weekly review from chat — 7 guided steps (open loops, wins, lessons, role goals, rocks, inbox zero, gratitude). Auto-pulls from pomodoro, habits, sleep, expenses, CRM. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/weekly-review/SKILL.md) |
+| **daily-briefing** | Personalized morning brief — weather, calendar, top 3, sleep recovery, habit streak, watchlist moves, news, CRM touch-ups, AI-suggested time-blocked schedule. Cron-ready. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/daily-briefing/SKILL.md) |
 
 ---
 
@@ -259,6 +260,9 @@ Then prompt:
 | *What's due for home maintenance this month?*
 | *My water heater warranty expired — what should I do?*
 | *Generate my fall home maintenance playbook*
+| *Morning briefing*
+| *Give me my daily brief*
+| *Plan my Tuesday*
 
 ## Skills 标准格式
 
