@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**73 skills · 19 categories**
+**74 skills · 19 categories**
 
 ---
 
@@ -19,7 +19,7 @@ hermes-skills-collection/
 ├── communication/     ← 沟通写作类 (2)
 ├── data-analysis/     ← 数据分析类 (4)
 ├── content-creation/  ← 内容创作类 (7)
-├── dev-tools/         ← 开发工具类 (4)
+├── dev-tools/         ← 开发工具类 (5)
 ├── devops/            ← CI/CD 与自动化类 (2)
 ├── ai-tools/          ← AI 工具类 (3)
 ├── learning/          ← 学习规划类 (3)
@@ -84,6 +84,7 @@ hermes-skills-collection/
 | **env-setup-debugger** | Diagnose project environment issues. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/dev-tools/env-setup-debugger/SKILL.md) |
 | **dependency-auditor** | Audit deps: outdated, security vulns, stale lockfiles, unused packages across npm/pip/cargo/go/gem/maven. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/dev-tools/dependency-auditor/SKILL.md) |
 | **regex-builder** | Build, debug, explain, and translate regular expressions across PCRE/Python/JS/Go — with 30+ battle-tested patterns and live test harness. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/dev-tools/regex-builder/SKILL.md) |
+| **changelog-generator** | Generate CHANGELOG.md from git history — auto-categorize Conventional Commits, per-tag release notes, breaking-change callouts, next-version bump suggestion, Keep-a-Changelog or Conventional output. Zero external deps. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/dev-tools/changelog-generator/SKILL.md) |
 
 ### ⚙️ DevOps
 
