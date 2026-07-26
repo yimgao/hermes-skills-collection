@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**74 skills · 19 categories**
+**75 skills · 19 categories**
 
 ---
 
@@ -28,7 +28,7 @@ hermes-skills-collection/
 ├── finance/           ← 个人财务类 (1)
 ├── security/          ← 安全审计类 (1)
 ├── legal/             ← 法律合同类 (1)
-└── productivity/      ← 专注力与时间管理类 (1)
+└── productivity/      ← 专注力与时间管理类 (4)
 ```
 
 ---
@@ -203,6 +203,7 @@ hermes-skills-collection/
 | **pomodoro-coach** | Run Pomodoro / deep work sessions from chat — log focus blocks, track distractions, identify your peak hours, daily & weekly focus reports. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/pomodoro-coach/SKILL.md) |
 | **weekly-review** | GTD-style weekly review from chat — 7 guided steps (open loops, wins, lessons, role goals, rocks, inbox zero, gratitude). Auto-pulls from pomodoro, habits, sleep, expenses, CRM. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/weekly-review/SKILL.md) |
 | **daily-briefing** | Personalized morning brief — weather, calendar, top 3, sleep recovery, habit streak, watchlist moves, news, CRM touch-ups, AI-suggested time-blocked schedule. Cron-ready. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/daily-briefing/SKILL.md) |
+| **decision-journal** | Record important decisions before outcomes are known — options, assumptions, evidence, confidence, reversibility, review dates, and calibration. Local Markdown. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/decision-journal/SKILL.md) |
 
 ---
 
@@ -264,6 +265,7 @@ Then prompt:
 | *Morning briefing*
 | *Give me my daily brief*
 | *Plan my Tuesday*
+> *"Record why I chose the managed database, then review the decision in 90 days"*
 
 ## Skills 标准格式
 

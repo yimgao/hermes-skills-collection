@@ -1,7 +1,7 @@
 ---
 name: skill-hub
 description: "Use when you want to discover or decide which Hermes skill to use for a task. Lists all available skills, their purposes, and helps match user requests to the right skill."
-version: 1.0.0
+version: 1.1.0
 author: yimgao
 license: MIT
 metadata:
@@ -79,6 +79,11 @@ This is a meta-skill — it helps you find the right skill for whatever you want
 | **prompt-benchmarker** | Compare prompt variations to find the best one |
 | **model-comparator** | Compare AI models: pricing, context, benchmarks |
 | **llm-output-validator** | Verify LLM output quality and accuracy |
+
+### ⚡ Productivity
+| Skill | When to Use |
+|-------|-------------|
+| **decision-journal** | Record and revisit important decisions with options, assumptions, confidence, review dates, and outcome calibration |
 
 ### 🏝️ Lifestyle
 | Skill | When to Use |
