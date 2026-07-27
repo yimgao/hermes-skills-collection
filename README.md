@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**75 skills · 19 categories**
+**76 skills · 19 categories**
 
 ---
 
@@ -85,6 +85,7 @@ hermes-skills-collection/
 | **dependency-auditor** | Audit deps: outdated, security vulns, stale lockfiles, unused packages across npm/pip/cargo/go/gem/maven. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/dev-tools/dependency-auditor/SKILL.md) |
 | **regex-builder** | Build, debug, explain, and translate regular expressions across PCRE/Python/JS/Go — with 30+ battle-tested patterns and live test harness. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/dev-tools/regex-builder/SKILL.md) |
 | **changelog-generator** | Generate CHANGELOG.md from git history — auto-categorize Conventional Commits, per-tag release notes, breaking-change callouts, next-version bump suggestion, Keep-a-Changelog or Conventional output. Zero external deps. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/dev-tools/changelog-generator/SKILL.md) |
+| **api-contract-tester** | Validate HTTP APIs against OpenAPI contracts: status/schema/header checks, breaking-change detection, safe CI reports. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/dev-tools/api-contract-tester/SKILL.md) |
 
 ### ⚙️ DevOps
 
@@ -266,6 +267,7 @@ Then prompt:
 | *Give me my daily brief*
 | *Plan my Tuesday*
 > *"Record why I chose the managed database, then review the decision in 90 days"*
+> *"Run an OpenAPI contract test against my staging API and fail CI on breaking responses"*
 
 ## Skills 标准格式
 

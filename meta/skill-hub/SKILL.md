@@ -1,7 +1,7 @@
 ---
 name: skill-hub
 description: "Use when you want to discover or decide which Hermes skill to use for a task. Lists all available skills, their purposes, and helps match user requests to the right skill."
-version: 1.1.0
+version: 1.2.0
 author: yimgao
 license: MIT
 metadata:
@@ -64,6 +64,7 @@ This is a meta-skill — it helps you find the right skill for whatever you want
 | **api-doc-generator** | Auto-generate API docs from code |
 | **code-review-helper** | Structured code review from diff/PR |
 | **env-setup-debugger** | Diagnose project environment issues |
+| **api-contract-tester** | Validate HTTP APIs against OpenAPI contracts and detect breaking response changes |
 
 ### ✍️ Content Creation
 | Skill | When to Use |
