@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**76 skills · 19 categories**
+**77 skills · 19 categories**
 
 ---
 
@@ -13,7 +13,7 @@ hermes-skills-collection/
 ├── meta/              ← 技能中心 (1)
 ├── research/          ← 市场调研类 (5)
 ├── web-analysis/      ← Web 技术分析类 (1)
-├── monitoring/        ← 定时监控类 (2)
+├── monitoring/        ← 定时监控类 (3)
 ├── business/          ← 商业计划类 (3)
 ├── career/            ← 求职求职类 (6)
 ├── communication/     ← 沟通写作类 (2)
@@ -64,6 +64,7 @@ hermes-skills-collection/
 |-------|-------------|---------|
 | **product-pricing-tracker** | Track pricing changes. Baseline + cron. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/monitoring/product-pricing-tracker/SKILL.md) |
 | **website-health-monitor** | Monitor uptime, SSL expiry, DNS, response time, content changes. Cron-ready. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/monitoring/website-health-monitor/SKILL.md) |
+| **ai-cost-tracker** | Log LLM API spend per provider/model/project by chat — daily/weekly/monthly burn, budget alerts, EOM projection, top-prompt diagnosis. Local JSON, cron-ready. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/monitoring/ai-cost-tracker/SKILL.md) |
 
 ### 📊 Data Analysis
 
@@ -268,6 +269,10 @@ Then prompt:
 | *Plan my Tuesday*
 > *"Record why I chose the managed database, then review the decision in 90 days"*
 > *"Run an OpenAPI contract test against my staging API and fail CI on breaking responses"*
+> *"Logged gpt-4o, project launch-deck, 8200 in / 1400 out"*
+> *"What will I spend on AI this month end?"*
+> *"Find the 5 most expensive calls this month"*
+> *"Set my AI budget to $120/month, alert at 80%"*
 
 ## Skills 标准格式
 
