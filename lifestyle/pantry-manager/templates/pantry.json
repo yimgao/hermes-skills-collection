@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-07-29T00:00:00Z",
+  "settings": {
+    "timezone": "America/Los_Angeles",
+    "expiry_windows_days": {
+      "fridge": 3,
+      "pantry": 14,
+      "freezer": 30
+    }
+  },
+  "batches": [],
+  "adjustments": [],
+  "shopping_list": []
+}

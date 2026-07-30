@@ -1,7 +1,7 @@
 ---
 name: skill-hub
 description: "Use when you want to discover or decide which Hermes skill to use for a task. Lists all available skills, their purposes, and helps match user requests to the right skill."
-version: 1.2.0
+version: 1.3.0
 author: yimgao
 license: MIT
 metadata:
@@ -94,6 +94,7 @@ This is a meta-skill — it helps you find the right skill for whatever you want
 | **recipe-generator** | Generate recipes from ingredients you have |
 | **fitness-planner** | Weekly workout plans based on goals and equipment |
 | **habit-tracker** | Define habits, check in daily, monitor streaks, get weekly summaries |
+| **pantry-manager** | Track pantry/fridge/freezer inventory, prioritize expiring food, plan meals from stock, and build deduplicated shopping lists |
 
 ---
 

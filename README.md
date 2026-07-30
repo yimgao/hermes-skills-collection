@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**77 skills · 19 categories**
+**78 skills · 19 categories**
 
 ---
 
@@ -23,7 +23,7 @@ hermes-skills-collection/
 ├── devops/            ← CI/CD 与自动化类 (2)
 ├── ai-tools/          ← AI 工具类 (3)
 ├── learning/          ← 学习规划类 (3)
-├── lifestyle/         ← 生活出行类 (10)
+├── lifestyle/         ← 生活出行类 (11)
 ├── utility/           ← 系统工具类 (3)
 ├── finance/           ← 个人财务类 (1)
 ├── security/          ← 安全审计类 (1)
@@ -167,6 +167,7 @@ hermes-skills-collection/
 | **symptom-diary** | Track symptoms, medications & supplements from chat — severity 1-10, body-system classification, adherence %, flare detection, side-effect flagging, doctor-ready report export. All data local. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/symptom-diary/SKILL.md) |
 | **bookshelf** | Track everything you read — books, articles, papers, audiobooks. NL logging, quotes, ratings, reading streaks, pace-to-goal, yearly recap, re-read reminders. All data local JSON. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/bookshelf/SKILL.md) |
 | **home-maintenance-tracker** | Log every filter, repair, and service — HVAC, water heater, appliances, gutters, roof. NL logging, cadence scheduling, overdue alerts, warranty tracking, seasonal playbook, annual cost report. All data local JSON. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/home-maintenance-tracker/SKILL.md) |
+| **pantry-manager** | Track pantry/fridge/freezer inventory by chat, prioritize expiring food, plan meals from stock, and generate deduplicated shopping lists. Local JSON. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/pantry-manager/SKILL.md) |
 
 ### 🔧 Utility
 
@@ -273,6 +274,7 @@ Then prompt:
 > *"What will I spend on AI this month end?"*
 > *"Find the 5 most expensive calls this month"*
 > *"Set my AI budget to $120/month, alert at 80%"*
+> *"What's expiring in my fridge, and what can I cook tonight?"*
 
 ## Skills 标准格式
 
