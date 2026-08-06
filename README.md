@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**78 skills · 19 categories**
+**79 skills · 19 categories**
 
 ---
 
@@ -20,7 +20,7 @@ hermes-skills-collection/
 ├── data-analysis/     ← 数据分析类 (4)
 ├── content-creation/  ← 内容创作类 (7)
 ├── dev-tools/         ← 开发工具类 (5)
-├── devops/            ← CI/CD 与自动化类 (2)
+├── devops/            ← CI/CD 与自动化类 (3)
 ├── ai-tools/          ← AI 工具类 (3)
 ├── learning/          ← 学习规划类 (3)
 ├── lifestyle/         ← 生活出行类 (11)
@@ -94,6 +94,7 @@ hermes-skills-collection/
 |-------|-------------|---------|
 | **cron-pipeline-builder** | Build automated cron pipelines: chaining, watchdogs, multi-stage workflows. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/devops/cron-pipeline-builder/SKILL.md) |
 | **log-analyzer** | Parse, filter, and analyze log files from web servers, apps, syslog, or Docker — extract error patterns, timelines, and root causes using grep/awk/jq/Python. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/devops/log-analyzer/SKILL.md) |
+| **incident-runbook** | Structured incident response from chat — severity rubric, triage questions, hypothesis tree, mitigation checklist, status-page drafts, blameless postmortem skeleton. Local Markdown. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/devops/incident-runbook/SKILL.md) |
 
 ### ✍️ Content Creation
 
@@ -268,13 +269,17 @@ Then prompt:
 | *Morning briefing*
 | *Give me my daily brief*
 | *Plan my Tuesday*
-> *"Record why I chose the managed database, then review the decision in 90 days"*
-> *"Run an OpenAPI contract test against my staging API and fail CI on breaking responses"*
-> *"Logged gpt-4o, project launch-deck, 8200 in / 1400 out"*
-> *"What will I spend on AI this month end?"*
-> *"Find the 5 most expensive calls this month"*
-> *"Set my AI budget to $120/month, alert at 80%"*
-> *"What's expiring in my fridge, and what can I cook tonight?"*
+| *"Record why I chose the managed database, then review the decision in 90 days"*
+| *"Run an OpenAPI contract test against my staging API and fail CI on breaking responses"*
+| *"Logged gpt-4o, project launch-deck, 8200 in / 1400 out"*
+| *"What will I spend on AI this month end?"*
+| *"Find the 5 most expensive calls this month"*
+| *"Set my AI budget to $120/month, alert at 80%"*
+| *"What's expiring in my fridge, and what can I cook tonight?"*
+| *"Stripe webhooks are 500ing, walk me through the runbook"*
+| *"Write a status page update — search latency is 4s for everyone in US"*
+| *"Generate the postmortem for last Tuesday's 47-min checkout outage"*
+| *"Is this a SEV1? 12% of renewals are failing on the Stripe webhook"*
 
 ## Skills 标准格式
 
