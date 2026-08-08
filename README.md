@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**80 skills · 19 categories**
+**81 skills · 19 categories**
 
 ---
 
@@ -17,7 +17,7 @@ hermes-skills-collection/
 ├── business/          ← 商业计划类 (3)
 ├── career/            ← 求职求职类 (6)
 ├── communication/     ← 沟通写作类 (2)
-├── data-analysis/     ← 数据分析类 (4)
+├── data-analysis/     ← 数据分析类 (5)
 ├── content-creation/  ← 内容创作类 (7)
 ├── dev-tools/         ← 开发工具类 (5)
 ├── devops/            ← CI/CD 与自动化类 (3)
@@ -74,6 +74,7 @@ hermes-skills-collection/
 | **screenshot-to-report** | Extract data from screenshots/images into structured reports. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/data-analysis/screenshot-to-report/SKILL.md) |
 | **git-history-analyst** | Analyze git repos: contributors, churn, hotspots, trends. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/data-analysis/git-history-analyst/SKILL.md) |
 | **csv-explorer** | Profile CSV/TSV files: schema, stats, quality, outliers. Python stdlib only. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/data-analysis/csv-explorer/SKILL.md) |
+| **time-series-analyzer** | Time series from CSV/JSON — trend (OLS), seasonality (autocorrelation), anomalies (z-score/IQR), change points (CUSUM), Holt forecast, cross-correlation. Pure stdlib. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/data-analysis/time-series-analyzer/SKILL.md) |
 
 ### 🛠️ Dev Tools
 
