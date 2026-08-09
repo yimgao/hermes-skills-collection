@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**81 skills · 19 categories**
+**82 skills · 19 categories**
 
 ---
 
@@ -170,6 +170,7 @@ hermes-skills-collection/
 | **bookshelf** | Track everything you read — books, articles, papers, audiobooks. NL logging, quotes, ratings, reading streaks, pace-to-goal, yearly recap, re-read reminders. All data local JSON. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/bookshelf/SKILL.md) |
 | **home-maintenance-tracker** | Log every filter, repair, and service — HVAC, water heater, appliances, gutters, roof. NL logging, cadence scheduling, overdue alerts, warranty tracking, seasonal playbook, annual cost report. All data local JSON. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/home-maintenance-tracker/SKILL.md) |
 | **pantry-manager** | Track pantry/fridge/freezer inventory by chat, prioritize expiring food, plan meals from stock, and generate deduplicated shopping lists. Local JSON. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/pantry-manager/SKILL.md) |
+| **pet-care-tracker** | Log pet health from chat — vaccines, flea/heartworm preventatives, medications, weight, vet visits, behavior for multi-pet households. Vet-ready export. Local JSON. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/pet-care-tracker/SKILL.md) |
 
 ### 🔧 Utility
 
@@ -281,7 +282,11 @@ Then prompt:
 | *"Stripe webhooks are 500ing, walk me through the runbook"*
 | *"Write a status page update — search latency is 4s for everyone in US"*
 | *"Generate the postmortem for last Tuesday's 47-min checkout outage"*
-| *"Is this a SEV1? 12% of renewals are failing on the Stripe webhook"*
+| *Is this a SEV1? 12% of renewals are failing on the Stripe webhook* |
+| *Gave Mochi her Heartgard and NexGard, 22.4 lb* |
+| *What's overdue across all my pets this week?* |
+| *Export Mochi's medical history for boarding next month* |
+| *Bean (kitten) just got her FVRCP #2 — log it* |
 
 ## Skills 标准格式
 
