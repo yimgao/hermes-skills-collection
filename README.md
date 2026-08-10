@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**82 skills · 19 categories**
+**83 skills · 19 categories**
 
 ---
 
@@ -26,7 +26,7 @@ hermes-skills-collection/
 ├── lifestyle/         ← 生活出行类 (11)
 ├── utility/           ← 系统工具类 (3)
 ├── finance/           ← 个人财务类 (1)
-├── security/          ← 安全审计类 (1)
+├── security/          ← 安全审计类 (2)
 ├── legal/             ← 法律合同类 (1)
 └── productivity/      ← 专注力与时间管理类 (4)
 ```
@@ -196,6 +196,7 @@ hermes-skills-collection/
 | Skill | Description | Install |
 |-------|-------------|---------|
 | **password-auditor** | Audit password strength, check breaches via HIBP API, generate secure passwords/passphrases, detect reuse. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/security/password-auditor/SKILL.md) |
+| **secret-scanner** | Scan codebases & git history for leaked secrets — API keys, tokens, private keys, .env leaks. Risk-classified, commit-pinned local report. Zero upload. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/security/secret-scanner/SKILL.md) |
 
 ### ⚖️ Legal
 
@@ -287,6 +288,8 @@ Then prompt:
 | *What's overdue across all my pets this week?* |
 | *Export Mochi's medical history for boarding next month* |
 | *Bean (kitten) just got her FVRCP #2 — log it* |
+| *Scan this repo for leaked API keys before I open-source it* |
+| *Find which commit introduced my AWS key AKIA...* |
 
 ## Skills 标准格式
 
