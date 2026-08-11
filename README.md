@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**83 skills · 19 categories**
+**84 skills · 19 categories**
 
 ---
 
@@ -23,7 +23,7 @@ hermes-skills-collection/
 ├── devops/            ← CI/CD 与自动化类 (3)
 ├── ai-tools/          ← AI 工具类 (3)
 ├── learning/          ← 学习规划类 (3)
-├── lifestyle/         ← 生活出行类 (11)
+├── lifestyle/         ← 生活出行类 (12)
 ├── utility/           ← 系统工具类 (3)
 ├── finance/           ← 个人财务类 (1)
 ├── security/          ← 安全审计类 (2)
@@ -171,6 +171,7 @@ hermes-skills-collection/
 | **home-maintenance-tracker** | Log every filter, repair, and service — HVAC, water heater, appliances, gutters, roof. NL logging, cadence scheduling, overdue alerts, warranty tracking, seasonal playbook, annual cost report. All data local JSON. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/home-maintenance-tracker/SKILL.md) |
 | **pantry-manager** | Track pantry/fridge/freezer inventory by chat, prioritize expiring food, plan meals from stock, and generate deduplicated shopping lists. Local JSON. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/pantry-manager/SKILL.md) |
 | **pet-care-tracker** | Log pet health from chat — vaccines, flea/heartworm preventatives, medications, weight, vet visits, behavior for multi-pet households. Vet-ready export. Local JSON. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/pet-care-tracker/SKILL.md) |
+| **plant-care-tracker** | Track every houseplant — watering/fertilizing/repotting cadence, species-aware defaults, growth journal, pest log, propagation pipeline, plant-sitter handoff. Local JSON. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/plant-care-tracker/SKILL.md) |
 
 ### 🔧 Utility
 
@@ -290,6 +291,12 @@ Then prompt:
 | *Bean (kitten) just got her FVRCP #2 — log it* |
 | *Scan this repo for leaked API keys before I open-source it* |
 | *Find which commit introduced my AWS key AKIA...* |
+| *Watered the monstera, top inch dry* |
+| *Set up a watering cadence for a new snake plant* |
+| *Which plants are overdue this week?* |
+| *Generate a care card for my plant-sitter, I'm traveling 10 days* |
+| *I just propagated 4 pothos cuttings — who in my network would want one?* |
+| *Found mealybugs on my hoya, treated with 70% isopropyl* |
 
 ## Skills 标准格式
 
