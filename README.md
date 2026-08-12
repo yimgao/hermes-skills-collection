@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**84 skills · 19 categories**
+**85 skills · 19 categories**
 
 ---
 
@@ -88,6 +88,7 @@ hermes-skills-collection/
 | **regex-builder** | Build, debug, explain, and translate regular expressions across PCRE/Python/JS/Go — with 30+ battle-tested patterns and live test harness. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/dev-tools/regex-builder/SKILL.md) |
 | **changelog-generator** | Generate CHANGELOG.md from git history — auto-categorize Conventional Commits, per-tag release notes, breaking-change callouts, next-version bump suggestion, Keep-a-Changelog or Conventional output. Zero external deps. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/dev-tools/changelog-generator/SKILL.md) |
 | **api-contract-tester** | Validate HTTP APIs against OpenAPI contracts: status/schema/header checks, breaking-change detection, safe CI reports. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/dev-tools/api-contract-tester/SKILL.md) |
+| **codebase-tour-guide** | Take a structured 15-minute tour of any unfamiliar codebase — entry points, module dependency graph, mermaid architecture diagrams, conventions, hotspots, risks, and onboarding playbook. Static read-only analysis, zero execution. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/dev-tools/codebase-tour-guide/SKILL.md) |
 
 ### ⚙️ DevOps
 
@@ -297,6 +298,8 @@ Then prompt:
 | *Generate a care card for my plant-sitter, I'm traveling 10 days* |
 | *I just propagated 4 pothos cuttings — who in my network would want one?* |
 | *Found mealybugs on my hoya, treated with 70% isopropyl* |
+| *I'm taking over a Python analytics-pipeline repo — give me a codebase tour* |
+| *New intern joining Monday — generate an onboarding playbook from our backend* |
 
 ## Skills 标准格式
 
