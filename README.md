@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**85 skills · 19 categories**
+**86 skills · 19 categories**
 
 ---
 
@@ -192,6 +192,7 @@ hermes-skills-collection/
 | **personal-expense-tracker** | Log expenses by NL, categorize, set budgets, monthly reports — all through chat. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/finance/personal-expense-tracker/SKILL.md) |
 | **subscription-manager** | Track recurring subs & free trials, see true monthly burn, get renewal alerts, and find zombie subscriptions you forgot you were paying for. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/finance/subscription-manager/SKILL.md) |
 | **net-worth-tracker** | Balance-sheet tracker — log assets/liabilities by chat, monthly snapshots, trend chart, debt-payoff avalanche vs snowball, asset allocation. All local JSON. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/finance/net-worth-tracker/SKILL.md) |
+|| **tax-prep-assistant** | Year-round US tax assistant — log deductible expenses by chat, auto-categorize Schedule A/C, missed-write-off detector, quarterly-estimate reminders, Schedule preview + document checklist. All local JSON. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/finance/tax-prep-assistant/SKILL.md) |
 
 ### 🔒 Security
 
