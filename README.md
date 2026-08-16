@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**87 skills · 19 categories**
+**88 skills · 19 categories**
 
 ---
 
@@ -12,23 +12,23 @@ A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearc
 hermes-skills-collection/
 ├── meta/              ← 技能中心 (1)
 ├── research/          ← 市场调研类 (5)
-├── web-analysis/      ← Web 技术分析类 (1)
+├── web-analysis/      ← Web 技术分析类 (2)
 ├── monitoring/        ← 定时监控类 (3)
 ├── business/          ← 商业计划类 (3)
 ├── career/            ← 求职求职类 (6)
-├── communication/     ← 沟通写作类 (2)
+├── communication/     ← 沟通写作类 (3)
 ├── data-analysis/     ← 数据分析类 (5)
-├── content-creation/  ← 内容创作类 (7)
-├── dev-tools/         ← 开发工具类 (5)
+├── content-creation/  ← 内容创作类 (9)
+├── dev-tools/         ← 开发工具类 (9)
 ├── devops/            ← CI/CD 与自动化类 (3)
-├── ai-tools/          ← AI 工具类 (3)
+├── ai-tools/          ← AI 工具类 (4)
 ├── learning/          ← 学习规划类 (3)
-├── lifestyle/         ← 生活出行类 (12)
-├── utility/           ← 系统工具类 (3)
-├── finance/           ← 个人财务类 (1)
+├── lifestyle/         ← 生活出行类 (13)
+├── utility/           ← 系统工具类 (6)
+├── finance/           ← 个人财务类 (5)
 ├── security/          ← 安全审计类 (2)
 ├── legal/             ← 法律合同类 (1)
-└── productivity/      ← 专注力与时间管理类 (4)
+└── productivity/      ← 专注力与时间管理类 (5)
 ```
 
 ---
@@ -192,7 +192,8 @@ hermes-skills-collection/
 | **personal-expense-tracker** | Log expenses by NL, categorize, set budgets, monthly reports — all through chat. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/finance/personal-expense-tracker/SKILL.md) |
 | **subscription-manager** | Track recurring subs & free trials, see true monthly burn, get renewal alerts, and find zombie subscriptions you forgot you were paying for. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/finance/subscription-manager/SKILL.md) |
 | **net-worth-tracker** | Balance-sheet tracker — log assets/liabilities by chat, monthly snapshots, trend chart, debt-payoff avalanche vs snowball, asset allocation. All local JSON. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/finance/net-worth-tracker/SKILL.md) |
-|| **tax-prep-assistant** | Year-round US tax assistant — log deductible expenses by chat, auto-categorize Schedule A/C, missed-write-off detector, quarterly-estimate reminders, Schedule preview + document checklist. All local JSON. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/finance/tax-prep-assistant/SKILL.md) |
+| **tax-prep-assistant** | Year-round US tax assistant — log deductible expenses by chat, auto-categorize Schedule A/C, missed-write-off detector, quarterly-estimate reminders, Schedule preview + document checklist. All local JSON. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/finance/tax-prep-assistant/SKILL.md) |
+| **investment-portfolio-tracker** | Track investment positions by chat — buy/sell lots, cost basis, unrealized P/L, target-vs-actual allocation, rebalance suggestions, dividends & interest, tax-loss harvesting candidates. All local JSON. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/finance/investment-portfolio-tracker/SKILL.md) |
 
 ### 🔒 Security
 
