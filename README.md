@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**88 skills · 19 categories**
+**89 skills · 19 categories**
 
 ---
 
@@ -217,6 +217,7 @@ hermes-skills-collection/
 | **daily-briefing** | Personalized morning brief — weather, calendar, top 3, sleep recovery, habit streak, watchlist moves, news, CRM touch-ups, AI-suggested time-blocked schedule. Cron-ready. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/daily-briefing/SKILL.md) |
 | **decision-journal** | Record important decisions before outcomes are known — options, assumptions, evidence, confidence, reversibility, review dates, and calibration. Local Markdown. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/decision-journal/SKILL.md) |
 | **calendar-optimizer** | Analyze calendar patterns from ICS / Google Calendar — meeting load, fragmentation, deep-work windows, batch-able meetings. Local analysis, privacy-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/calendar-optimizer/SKILL.md) |
+| **inbox-triage** | Process email inbox to zero from chat — classify every message by intent (reply_now / reply_later / fyi / receipt / newsletter / notification / spam), draft one-line replies, bulk-archive, surface cold follow-ups, daily focus queue. Local-only, privacy-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/inbox-triage/SKILL.md) |
 
 ---
 
@@ -303,6 +304,11 @@ Then prompt:
 | *Found mealybugs on my hoya, treated with 70% isopropyl* |
 | *I'm taking over a Python analytics-pipeline repo — give me a codebase tour* |
 | *New intern joining Monday — generate an onboarding playbook from our backend* |
+| *Triage my inbox — 47 unread, point at Apple Mail* |
+| *What emails do I owe a reply to?* |
+| *Show me today's focus queue* |
+| *Archive every newsletter older than 30 days* |
+| *Draft a 2-sentence reply to the Stripe webhook thread* |
 
 ## Skills 标准格式
 
