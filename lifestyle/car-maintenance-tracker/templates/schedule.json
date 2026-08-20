@@ -1,0 +1,24 @@
+{
+  "vehicle_id": "REPLACE_WITH_NICKNAME_SLUG",
+  "driving_profile": "normal",
+  "generated_at": "YYYY-MM-DDTHH:MM:SS",
+  "source": "references/default-schedules.md",
+  "services": [
+    {"key": "oil_change", "label": "Oil change", "every_miles": 7500, "every_months": 12, "trigger": "mi-or-date", "category": "fluids"},
+    {"key": "tire_rotation", "label": "Tire rotation", "every_miles": 7500, "every_months": null, "trigger": "mi", "category": "tires"},
+    {"key": "cabin_air_filter", "label": "Cabin air filter", "every_miles": 20000, "every_months": 24, "trigger": "mi-or-date", "category": "filters"},
+    {"key": "engine_air_filter", "label": "Engine air filter", "every_miles": 30000, "every_months": 36, "trigger": "mi-or-date", "category": "filters"},
+    {"key": "brake_fluid", "label": "Brake fluid flush", "every_miles": null, "every_months": 24, "trigger": "date", "category": "fluids"},
+    {"key": "coolant", "label": "Coolant flush", "every_miles": null, "every_months": 60, "trigger": "date", "category": "fluids"},
+    {"key": "transmission_fluid", "label": "Transmission fluid", "every_miles": 60000, "every_months": null, "trigger": "mi", "category": "fluids"},
+    {"key": "spark_plugs", "label": "Spark plugs", "every_miles": 100000, "every_months": null, "trigger": "mi", "category": "ignition"},
+    {"key": "brake_pads_inspect", "label": "Brake pads inspect", "every_miles": 15000, "every_months": 12, "trigger": "mi-or-date", "category": "brakes"},
+    {"key": "alignment", "label": "Wheel alignment", "every_miles": 20000, "every_months": null, "trigger": "mi", "category": "tires"},
+    {"key": "battery_test", "label": "Battery test", "every_miles": null, "every_months": 12, "trigger": "date", "category": "electrical"},
+    {"key": "wipers", "label": "Wiper blades", "every_miles": null, "every_months": 12, "trigger": "date", "category": "consumables"},
+    {"key": "registration", "label": "Registration renewal", "every_miles": null, "every_months": 12, "trigger": "date", "category": "calendar", "state_specific": true},
+    {"key": "insurance", "label": "Insurance renewal", "every_miles": null, "every_months": 12, "trigger": "date", "category": "calendar"},
+    {"key": "inspection", "label": "Safety inspection", "every_miles": null, "every_months": 12, "trigger": "date", "category": "calendar", "state_specific": true},
+    {"key": "emissions", "label": "Emissions / smog test", "every_miles": null, "every_months": 24, "trigger": "date", "category": "calendar", "state_specific": true}
+  ]
+}

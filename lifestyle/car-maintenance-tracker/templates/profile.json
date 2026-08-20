@@ -1,0 +1,40 @@
+{
+  "vehicle_id": "REPLACE_WITH_NICKNAME_SLUG",
+  "nickname": "REPLACE_WITH_FRIENDLY_NAME",
+  "year": 0,
+  "make": "",
+  "model": "",
+  "trim": "",
+  "vin": "",
+  "plate": "",
+  "color": "",
+  "purchase_date": "YYYY-MM-DD",
+  "purchase_price": 0,
+  "current_odometer": 0,
+  "odometer_unit": "mi",
+  "fuel_unit": "gal",
+  "fuel_economy_unit": "mpg",
+  "garage_spot": "",
+  "drivers": [""],
+  "insurers": [],
+  "financing": {
+    "lender": "",
+    "loan_amount": 0,
+    "rate_apr": 0,
+    "term_months": 0,
+    "monthly_payment": 0,
+    "remaining_balance": 0
+  },
+  "warranties": [
+    {
+      "type": "new_vehicle",
+      "start_date": "YYYY-MM-DD",
+      "end_date": "YYYY-MM-DD",
+      "coverage": "bumper-to-bumper",
+      "mileage_limit": 36000
+    }
+  ],
+  "primary_use": "commuter",
+  "driving_profile": "normal",
+  "notes": ""
+}
