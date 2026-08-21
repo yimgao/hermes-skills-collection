@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**90 skills · 19 categories**
+**91 skills · 19 categories**
 
 ---
 
@@ -28,7 +28,7 @@ hermes-skills-collection/
 ├── finance/           ← 个人财务类 (5)
 ├── security/          ← 安全审计类 (2)
 ├── legal/             ← 法律合同类 (1)
-└── productivity/      ← 专注力与时间管理类 (5)
+└── productivity/      ← 专注力与时间管理类 (6)
 ```
 
 ---
@@ -219,6 +219,7 @@ hermes-skills-collection/
 | **decision-journal** | Record important decisions before outcomes are known — options, assumptions, evidence, confidence, reversibility, review dates, and calibration. Local Markdown. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/decision-journal/SKILL.md) |
 | **calendar-optimizer** | Analyze calendar patterns from ICS / Google Calendar — meeting load, fragmentation, deep-work windows, batch-able meetings. Local analysis, privacy-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/calendar-optimizer/SKILL.md) |
 | **inbox-triage** | Process email inbox to zero from chat — classify every message by intent (reply_now / reply_later / fyi / receipt / newsletter / notification / spam), draft one-line replies, bulk-archive, surface cold follow-ups, daily focus queue. Local-only, privacy-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/inbox-triage/SKILL.md) |
+| **meeting-prep-brief** | Generate a one-page pre-meeting brief from chat — attendee dossier from personal-crm, open email threads, last meeting's decisions, suggested agenda, talking points, risks to flag. 5-min setup, local-only, pasteable everywhere. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/meeting-prep-brief/SKILL.md) |
 
 ---
 
@@ -310,6 +311,10 @@ Then prompt:
 | *Show me today's focus queue* |
 | *Archive every newsletter older than 30 days* |
 | *Draft a 2-sentence reply to the Stripe webhook thread* |
+| *Prep me for my 2pm with Sarah Chen — 30 min, project alpha sync* |
+| *Brief me for the Acme sales call tomorrow at 10am, 45 min, CFO + CTO* |
+| *What's my agenda for the Friday board meeting — what should I have ready?* |
+| *Generate a one-page brief for my customer interview with the fintech PM team* |
 
 ## Skills 标准格式
 
