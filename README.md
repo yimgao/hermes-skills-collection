@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**91 skills · 19 categories**
+**92 skills · 19 categories**
 
 ---
 
@@ -120,6 +120,7 @@ hermes-skills-collection/
 | **model-comparator** | Compare AI models: pricing, context, benchmarks. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/ai-tools/model-comparator/SKILL.md) |
 | **llm-output-validator** | Verify LLM output: facts, format, consistency. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/ai-tools/llm-output-validator/SKILL.md) |
 | **prompt-library** | Save, version, tag, search & reuse your best LLM prompts — personal prompt manager with local JSON, intent search & 1-line retrieval. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/ai-tools/prompt-library/SKILL.md) |
+| **prompt-refiner** | Turn vague/underperforming prompts into effective ones — 6 failure-mode diagnosis, R-T-C-E refactor (Role/Task/Context/Example), output-format & constraint injection, iterate-until-it-works loop. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/ai-tools/prompt-refiner/SKILL.md) |
 
 ### 💼 Business
 
@@ -263,6 +264,7 @@ Then prompt:
 > *What keeps showing up as an open loop?*
 > *Save this prompt as 'cold-email-v2'*
 > *Find my prompt for writing investor updates*
+> *Refine this prompt: 'write me something about AI'*
 > *Use linkedin-post-formula on: getting rejected by 7 VCs in a row*
 > *Show me prompts I never used*
 > *Review this freelance SOW — fair deal or red flags?*
