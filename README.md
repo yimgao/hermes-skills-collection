@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**92 skills · 19 categories**
+**93 skills · 19 categories**
 
 ---
 
@@ -16,7 +16,7 @@ hermes-skills-collection/
 ├── monitoring/        ← 定时监控类 (3)
 ├── business/          ← 商业计划类 (3)
 ├── career/            ← 求职求职类 (6)
-├── communication/     ← 沟通写作类 (3)
+├── communication/     ← 沟通写作类 (4)
 ├── data-analysis/     ← 数据分析类 (5)
 ├── content-creation/  ← 内容创作类 (9)
 ├── dev-tools/         ← 开发工具类 (9)
@@ -148,6 +148,7 @@ hermes-skills-collection/
 | **email-composer** | Draft professional emails. Business/job/client tone. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/communication/email-composer/SKILL.md) |
 | **presentation-helper** | Structure presentations from notes/content. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/communication/presentation-helper/SKILL.md) |
 | **meeting-minutes-generator** | Transform raw notes/transcripts into structured minutes with actions & decisions. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/communication/meeting-minutes-generator/SKILL.md) |
+| **message-tone-adjuster** | Rewrite any draft message in the right tone — polite, assertive, diplomatic decline, gentle nudge, apology, formal, casual. Chinese/English workplace culture adaptation. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/communication/message-tone-adjuster/SKILL.md) |
 
 ### 📚 Learning
 
@@ -255,7 +256,9 @@ Then prompt:
 > *"I just met Sarah at a meetup, add her to my CRM"*
 > *"Who in my network haven't I talked to in 6 months?"*
 | *I slept 11pm to 6:45am, felt tired, woke twice*
-> *What affects my sleep the most?*
+| *帮我把这条消息改得礼貌一点，我要拒绝客户的砍价*
+| *这封催款邮件太冲了，帮我改成正式版*
+| *What affects my sleep the most?*
 > *Show me my sleep debt this week*
 > *Start a 25-min pomodoro on the launch deck*
 > *When am I most productive this week?*
