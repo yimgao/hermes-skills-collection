@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**93 skills · 19 categories**
+**94 skills · 19 categories**
 
 ---
 
@@ -26,7 +26,7 @@ hermes-skills-collection/
 ├── lifestyle/         ← 生活出行类 (14)
 ├── utility/           ← 系统工具类 (6)
 ├── finance/           ← 个人财务类 (5)
-├── security/          ← 安全审计类 (2)
+├── security/          ← 安全审计类 (3)
 ├── legal/             ← 法律合同类 (1)
 └── productivity/      ← 专注力与时间管理类 (6)
 ```
@@ -204,6 +204,7 @@ hermes-skills-collection/
 |-------|-------------|---------|
 | **password-auditor** | Audit password strength, check breaches via HIBP API, generate secure passwords/passphrases, detect reuse. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/security/password-auditor/SKILL.md) |
 | **secret-scanner** | Scan codebases & git history for leaked secrets — API keys, tokens, private keys, .env leaks. Risk-classified, commit-pinned local report. Zero upload. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/security/secret-scanner/SKILL.md) |
+| **phishing-link-inspector** | Analyze any URL / email / SMS for phishing & social engineering before you click — lookalike domains, brand impersonation, urgency language, link-text vs. href mismatch, attachment danger, optional DNS/whois. Local-first verdict card, zero upload. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/security/phishing-link-inspector/SKILL.md) |
 
 ### ⚖️ Legal
 
@@ -320,6 +321,9 @@ Then prompt:
 | *Brief me for the Acme sales call tomorrow at 10am, 45 min, CFO + CTO* |
 | *What's my agenda for the Friday board meeting — what should I have ready?* |
 | *Generate a one-page brief for my customer interview with the fintech PM team* |
+| *Is this link safe? `http://paypa1-secure-verify.com/signin`* |
+| *Analyze this email — is it phishing? I got a "DHL customs fee" notice* |
+| *Check this SMS from "USPS" before I click the tracking link* |
 
 ## Skills 标准格式
 
