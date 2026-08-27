@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**96 skills · 19 categories**
+**97 skills · 19 categories**
 
 ---
 
@@ -28,7 +28,7 @@ hermes-skills-collection/
 ├── finance/           ← 个人财务类 (5)
 ├── security/          ← 安全审计类 (3)
 ├── legal/             ← 法律合同类 (1)
-└── productivity/      ← 专注力与时间管理类 (6)
+└── productivity/      ← 专注力与时间管理类 (7)
 ```
 
 ---
@@ -225,6 +225,7 @@ hermes-skills-collection/
 | **calendar-optimizer** | Analyze calendar patterns from ICS / Google Calendar — meeting load, fragmentation, deep-work windows, batch-able meetings. Local analysis, privacy-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/calendar-optimizer/SKILL.md) |
 | **inbox-triage** | Process email inbox to zero from chat — classify every message by intent (reply_now / reply_later / fyi / receipt / newsletter / notification / spam), draft one-line replies, bulk-archive, surface cold follow-ups, daily focus queue. Local-only, privacy-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/inbox-triage/SKILL.md) |
 | **meeting-prep-brief** | Generate a one-page pre-meeting brief from chat — attendee dossier from personal-crm, open email threads, last meeting's decisions, suggested agenda, talking points, risks to flag. 5-min setup, local-only, pasteable everywhere. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/meeting-prep-brief/SKILL.md) |
+| **daily-shutdown** | Run a 2-minute end-of-day shutdown ritual — close open loops, score the day 1-10, capture tomorrow's first move, log 1-line gratitude. Pairs with daily-briefing, pomodoro, weekly-review. Local JSON, cron-ready. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/daily-shutdown/SKILL.md) |
 
 ---
 
@@ -332,9 +333,15 @@ Then prompt:
 | *I have $80 for groceries this week for a family of 4 — make it work* |
 | *Swap Wednesday's dinner for something kid-friendly* |
 | *Generate ICS events for the cook slots so I get reminders* |
-| *My passport expires 2031-04-20 — add it, and check if I can travel to Thailand in March* |
-| *What's expiring in the next 60 days?* |
-| *Check my documents for the Europe trip in June* |
+> *My passport expires 2031-04-20 — add it, and check if I can travel to Thailand in March*
+> *What's expiring in the next 60 days?*
+> *Check my documents for the Europe trip in June*
+> *Shutdown* / *End my day* / *Daily shutdown*
+> *What's tomorrow's first move?*
+> *Show me my shutdowns this week*
+> *Score my day 8 — solid output, two meetings killed flow*
+> *Set a cron to run my shutdown at 5:30pm every weekday*
+> *5pm ritual — log everything fast*
 
 ## Skills 标准格式
 
