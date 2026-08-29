@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**97 skills · 19 categories**
+**98 skills · 19 categories**
 
 ---
 
@@ -23,7 +23,7 @@ hermes-skills-collection/
 ├── devops/            ← CI/CD 与自动化类 (3)
 ├── ai-tools/          ← AI 工具类 (4)
 ├── learning/          ← 学习规划类 (3)
-├── lifestyle/         ← 生活出行类 (16)
+├── lifestyle/         ← 生活出行类 (17)
 ├── utility/           ← 系统工具类 (6)
 ├── finance/           ← 个人财务类 (5)
 ├── security/          ← 安全审计类 (3)
@@ -178,6 +178,7 @@ hermes-skills-collection/
 | **car-maintenance-tracker** | Log vehicle service & ownership from chat — oil/tires/brakes/battery by mileage-or-time cadences, fuel-economy anomaly detection, registration/insurance/warranty tracking, cost-per-mile, dealer-ready service record export. Multi-vehicle, local JSON, privacy-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/car-maintenance-tracker/SKILL.md) |
 | **weekly-meal-planner** | Generate a 7-day meal calendar from chat — dietary prefs, allergies, weekday time budget, pantry-first priority, variety rules, leftover linkage, consolidated shopping list with aisle grouping + quantity math. Pairs with pantry-manager and recipe-generator. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/weekly-meal-planner/SKILL.md) |
 | **renewal-reminder** | Track every expiration & renewal from chat — passport/visa/license/insurance/certs/domain/SSL/warranty/membership. Lead-time-aware renew-by dates, 6-month passport travel rule, tiered reminders, cost history, document checklist. Local JSON, privacy-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/renewal-reminder/SKILL.md) |
+| **medical-visit-companion** | End-to-end doctor visit companion — pre-visit briefing pack with symptom timeline & smart questions, live appointment mode, post-visit SOAP notes, lab/imaging result decoder, follow-up + refill reminders. Pairs with symptom-diary. Local JSON, privacy-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/medical-visit-companion/SKILL.md) |
 
 ### 🔧 Utility
 
