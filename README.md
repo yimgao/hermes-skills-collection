@@ -345,6 +345,7 @@ Then prompt:
 > *Set a cron to run my shutdown at 5:30pm every weekday*
 > *5pm ritual — log everything fast*
 > *Quiz me on my system-design deck — what's due today?*
+> *Add these to my spaced repetition deck and start scheduling reviews*
 
 ## Skills 标准格式
 
