@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**98 skills · 19 categories**
+**99 skills · 19 categories**
 
 ---
 
@@ -22,7 +22,7 @@ hermes-skills-collection/
 ├── dev-tools/         ← 开发工具类 (9)
 ├── devops/            ← CI/CD 与自动化类 (3)
 ├── ai-tools/          ← AI 工具类 (4)
-├── learning/          ← 学习规划类 (3)
+├── learning/          ← 学习规划类 (4)
 ├── lifestyle/         ← 生活出行类 (17)
 ├── utility/           ← 系统工具类 (6)
 ├── finance/           ← 个人财务类 (5)
@@ -157,6 +157,7 @@ hermes-skills-collection/
 | **flashcard-generator** | Convert notes/articles into study flashcards. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/learning/flashcard-generator/SKILL.md) |
 | **interview-coach** | Practice STAR method interviews with feedback. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/learning/interview-coach/SKILL.md) |
 | **study-planner** | Create study plans for exams/certifications. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/learning/study-planner/SKILL.md) |
+| **spaced-repetition-coach** | Actually remember what you study — SM-2 review scheduling, chat-based quiz sessions, per-card retention tracking, leech diagnosis, 14-day workload forecast. Local JSON, no Anki required. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/learning/spaced-repetition-coach/SKILL.md) |
 
 ### 🏝️ Lifestyle
 
@@ -343,6 +344,7 @@ Then prompt:
 > *Score my day 8 — solid output, two meetings killed flow*
 > *Set a cron to run my shutdown at 5:30pm every weekday*
 > *5pm ritual — log everything fast*
+> *Quiz me on my system-design deck — what's due today?*
 
 ## Skills 标准格式
 

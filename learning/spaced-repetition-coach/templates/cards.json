@@ -1,0 +1,37 @@
+{
+  "settings": {
+    "daily_limit": 20,
+    "new_cards_per_day": 10,
+    "target_retention": 0.9,
+    "leech_threshold": 8,
+    "timezone_note": "All dates are local-date ISO strings (YYYY-MM-DD). No times, no timezones — a card due 'today' is due all day."
+  },
+  "cards": [
+    {
+      "id": "c1",
+      "front": "In SM-2, what happens to the interval when you grade a card below 3?",
+      "back": "It resets to 1 day and the repetition count goes to 0 (relearning). The ease factor is left alone.",
+      "deck": "spaced-repetition",
+      "ef": 2.5,
+      "reps": 0,
+      "interval": 0,
+      "lapses": 0,
+      "due": "2026-08-29",
+      "leech": false,
+      "history": []
+    },
+    {
+      "id": "c2",
+      "front": "PostgreSQL listens on port {{5432}} by default.",
+      "back": "5432",
+      "deck": "infra",
+      "ef": 2.5,
+      "reps": 0,
+      "interval": 0,
+      "lapses": 0,
+      "due": "2026-08-29",
+      "leech": false,
+      "history": []
+    }
+  ]
+}
