@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**99 skills · 19 categories**
+**100 skills · 19 categories**
 
 ---
 
@@ -28,7 +28,7 @@ hermes-skills-collection/
 ├── finance/           ← 个人财务类 (5)
 ├── security/          ← 安全审计类 (3)
 ├── legal/             ← 法律合同类 (1)
-└── productivity/      ← 专注力与时间管理类 (7)
+└── productivity/      ← 专注力与时间管理类 (9)
 ```
 
 ---
@@ -228,6 +228,7 @@ hermes-skills-collection/
 | **inbox-triage** | Process email inbox to zero from chat — classify every message by intent (reply_now / reply_later / fyi / receipt / newsletter / notification / spam), draft one-line replies, bulk-archive, surface cold follow-ups, daily focus queue. Local-only, privacy-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/inbox-triage/SKILL.md) |
 | **meeting-prep-brief** | Generate a one-page pre-meeting brief from chat — attendee dossier from personal-crm, open email threads, last meeting's decisions, suggested agenda, talking points, risks to flag. 5-min setup, local-only, pasteable everywhere. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/meeting-prep-brief/SKILL.md) |
 | **daily-shutdown** | Run a 2-minute end-of-day shutdown ritual — close open loops, score the day 1-10, capture tomorrow's first move, log 1-line gratitude. Pairs with daily-briefing, pomodoro, weekly-review. Local JSON, cron-ready. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/daily-shutdown/SKILL.md) |
+| **standup-status-updater** | Generate your daily standup in 30s — Yesterday/Today/Blockers synthesized from git log, pomodoro blocks, tasks & calendar. Paste-ready for Slack/Teams/Geekbot async, honest blocker + ask framing, Monday/retro variants. Local-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/standup-status-updater/SKILL.md) |
 
 ---
 
@@ -346,6 +347,10 @@ Then prompt:
 > *5pm ritual — log everything fast*
 > *Quiz me on my system-design deck — what's due today?*
 > *Add these to my spaced repetition deck and start scheduling reviews*
+> *Generate my standup*
+> *帮我生成今天的站会更新*
+> *Draft my async standup for Geekbot*
+> *Monday standup — need to cover Friday's work too*
 
 ## Skills 标准格式
 
