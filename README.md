@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**100 skills · 19 categories**
+**101 skills · 19 categories**
 
 ---
 
@@ -11,7 +11,7 @@ A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearc
 ```text
 hermes-skills-collection/
 ├── meta/              ← 技能中心 (1)
-├── research/          ← 市场调研类 (5)
+├── research/          ← 市场调研类 (6)
 ├── web-analysis/      ← Web 技术分析类 (2)
 ├── monitoring/        ← 定时监控类 (3)
 ├── business/          ← 商业计划类 (3)
@@ -48,6 +48,7 @@ hermes-skills-collection/
 | **local-competitive-analysis** | Analyze local competitors. Auto IP location. SWOT + market gap. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/research/local-competitive-analysis/SKILL.md) |
 | **competitor-news-monitor** | Track competitor news, launches, funding. Pairs with cron. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/research/competitor-news-monitor/SKILL.md) |
 | **arxiv-paper-summarizer** | Summarize arXiv papers. English/中文. Batch + cron. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/research/arxiv-paper-summarizer/SKILL.md) |
+| **fact-checker** | Verify any claim before you share it — numbers, quotes, dates, news, scientific statements against primary sources. Returns VERIFIED / DISPUTED / FALSE / UNVERIFIABLE verdict card with cited sources and suggested rewrite. Built for Twitter, newsletter, investor memos, slides. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/research/fact-checker/SKILL.md) |
 | **restaurant-site-finder** | Find optimal US cities for a restaurant. Population, demo, competitors, rent, growth. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/research/restaurant-site-finder/SKILL.md) |
 | **site-selection-pipeline** | End-to-end site selection: demographics → competition → financial model. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/research/site-selection-pipeline/SKILL.md) |
 
@@ -250,6 +251,7 @@ Then prompt:
 > *"Scaffold a FastAPI project"*
 > *"Review my uncommitted changes"*
 > *"Summarize arxiv 2401.09670"*
+> *"Verify this paragraph before I tweet it"*
 > *"Track Notion's pricing"*
 > *"Monitor OpenAI this week"*
 > *"I have chicken and broccoli — what can I cook?"*
