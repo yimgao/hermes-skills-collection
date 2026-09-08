@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**101 skills · 19 categories**
+**102 skills · 19 categories**
 
 ---
 
@@ -23,7 +23,7 @@ hermes-skills-collection/
 ├── devops/            ← CI/CD 与自动化类 (3)
 ├── ai-tools/          ← AI 工具类 (4)
 ├── learning/          ← 学习规划类 (4)
-├── lifestyle/         ← 生活出行类 (17)
+├── lifestyle/         ← 生活出行类 (18)
 ├── utility/           ← 系统工具类 (6)
 ├── finance/           ← 个人财务类 (5)
 ├── security/          ← 安全审计类 (3)
@@ -181,6 +181,7 @@ hermes-skills-collection/
 | **weekly-meal-planner** | Generate a 7-day meal calendar from chat — dietary prefs, allergies, weekday time budget, pantry-first priority, variety rules, leftover linkage, consolidated shopping list with aisle grouping + quantity math. Pairs with pantry-manager and recipe-generator. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/weekly-meal-planner/SKILL.md) |
 | **renewal-reminder** | Track every expiration & renewal from chat — passport/visa/license/insurance/certs/domain/SSL/warranty/membership. Lead-time-aware renew-by dates, 6-month passport travel rule, tiered reminders, cost history, document checklist. Local JSON, privacy-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/renewal-reminder/SKILL.md) |
 | **medical-visit-companion** | End-to-end doctor visit companion — pre-visit briefing pack with symptom timeline & smart questions, live appointment mode, post-visit SOAP notes, lab/imaging result decoder, follow-up + refill reminders. Pairs with symptom-diary. Local JSON, privacy-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/medical-visit-companion/SKILL.md) |
+| **lost-item-recovery** | Emergency response when something important is lost or stolen — passport, wallet, phone, laptop, luggage, keys, car, pet. Ordered 5-min / 1-hr / 3-day playbooks, country-aware hotlines, Find-My orchestration, police-report templates, insurance-claim packet, follow-up scam check. Pairs with renewal-reminder, travel-itinerary-planner, personal-crm, phishing-link-inspector. Local-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/lost-item-recovery/SKILL.md) |
 
 ### 🔧 Utility
 
@@ -353,6 +354,12 @@ Then prompt:
 > *帮我生成今天的站会更新*
 > *Draft my async standup for Geekbot*
 > *Monday standup — need to cover Friday's work too*
+> *My passport is gone — I'm at Heathrow with an 11h flight home, walk me through what to do*
+> *我的钱包在巴塞罗那被偷了，帮我一步一步处理*
+> *I left my phone in a Lyft — what do I do first?*
+> *Air Canada lost my bag 3 days ago — how do I escalate the claim?*
+> *My laptop was stolen and it had my 2FA seeds — what's the rotation playbook?*
+> *Someone used my credit card after I lost my wallet — help me dispute under FCRA*
 
 ## Skills 标准格式
 
