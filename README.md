@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**102 skills · 19 categories**
+**103 skills · 19 categories**
 
 ---
 
@@ -90,6 +90,7 @@ hermes-skills-collection/
 | **changelog-generator** | Generate CHANGELOG.md from git history — auto-categorize Conventional Commits, per-tag release notes, breaking-change callouts, next-version bump suggestion, Keep-a-Changelog or Conventional output. Zero external deps. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/dev-tools/changelog-generator/SKILL.md) |
 | **api-contract-tester** | Validate HTTP APIs against OpenAPI contracts: status/schema/header checks, breaking-change detection, safe CI reports. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/dev-tools/api-contract-tester/SKILL.md) |
 | **codebase-tour-guide** | Take a structured 15-minute tour of any unfamiliar codebase — entry points, module dependency graph, mermaid architecture diagrams, conventions, hotspots, risks, and onboarding playbook. Static read-only analysis, zero execution. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/dev-tools/codebase-tour-guide/SKILL.md) |
+| **pr-description-writer** | Turn any branch / diff into a paste-ready PR description — Conventional-Commits title, Why + alternatives, file-grouped changeset, test plan, breaking-change banner + migration, reviewer checklist, CODEOWNERS-driven reviewer pings, 1-line Slack teaser. Adapts to GitHub / GitLab / Bitbucket / Azure DevOps and respects the repo's PR template. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/dev-tools/pr-description-writer/SKILL.md) |
 
 ### ⚙️ DevOps
 
@@ -358,8 +359,13 @@ Then prompt:
 > *我的钱包在巴塞罗那被偷了，帮我一步一步处理*
 > *I left my phone in a Lyft — what do I do first?*
 > *Air Canada lost my bag 3 days ago — how do I escalate the claim?*
-> *My laptop was stolen and it had my 2FA seeds — what's the rotation playbook?*
-> *Someone used my credit card after I lost my wallet — help me dispute under FCRA*
+|> *My laptop was stolen and it had my 2FA seeds — what's the rotation playbook?*
+|> *Someone used my credit card after I lost my wallet — help me dispute under FCRA*
+|> *Write the PR description for `feat/stripe-retries` against `main`*
+|> *I just rebased 6 commits into 1 — generate the PR body from the squashed diff*
+|> *We have a `.github/pull_request_template.md` — fill it out from my branch*
+|> *Draft the GitLab MR for `fix/login-redirect-loop`, mixed CN/EN*
+|> *Is this PR breaking? Auto-detect and draft the migration section*
 
 ## Skills 标准格式
 
