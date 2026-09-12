@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**103 skills · 19 categories**
+**104 skills · 19 categories**
 
 ---
 
@@ -19,14 +19,14 @@ hermes-skills-collection/
 ├── communication/     ← 沟通写作类 (4)
 ├── data-analysis/     ← 数据分析类 (5)
 ├── content-creation/  ← 内容创作类 (9)
-├── dev-tools/         ← 开发工具类 (9)
+├── dev-tools/         ← 开发工具类 (10)
 ├── devops/            ← CI/CD 与自动化类 (3)
-├── ai-tools/          ← AI 工具类 (4)
+├── ai-tools/          ← AI 工具类 (5)
 ├── learning/          ← 学习规划类 (4)
 ├── lifestyle/         ← 生活出行类 (18)
 ├── utility/           ← 系统工具类 (6)
 ├── finance/           ← 个人财务类 (5)
-├── security/          ← 安全审计类 (3)
+├── security/          ← 安全审计类 (4)
 ├── legal/             ← 法律合同类 (1)
 └── productivity/      ← 专注力与时间管理类 (9)
 ```
@@ -212,6 +212,7 @@ hermes-skills-collection/
 | **password-auditor** | Audit password strength, check breaches via HIBP API, generate secure passwords/passphrases, detect reuse. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/security/password-auditor/SKILL.md) |
 | **secret-scanner** | Scan codebases & git history for leaked secrets — API keys, tokens, private keys, .env leaks. Risk-classified, commit-pinned local report. Zero upload. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/security/secret-scanner/SKILL.md) |
 | **phishing-link-inspector** | Analyze any URL / email / SMS for phishing & social engineering before you click — lookalike domains, brand impersonation, urgency language, link-text vs. href mismatch, attachment danger, optional DNS/whois. Local-first verdict card, zero upload. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/security/phishing-link-inspector/SKILL.md) |
+| **privacy-footprint-cleaner** | Take back your personal data from data brokers, search engines, and old accounts — broker opt-out campaign (Spokeo, Whitepages, BeenVerified, Radaris…), Google "Results about you" removals, CCPA/GDPR erasure requests, zombie-account cleanup, quarterly re-check cron. Safety-first mode for stalking/harassment victims. Local tracker JSON, zero upload. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/security/privacy-footprint-cleaner/SKILL.md) |
 
 ### ⚖️ Legal
 
@@ -334,6 +335,10 @@ Then prompt:
 | *Is this link safe? `http://paypa1-secure-verify.com/signin`* |
 | *Analyze this email — is it phishing? I got a "DHL customs fee" notice* |
 | *Check this SMS from "USPS" before I click the tracking link* |
+| *My address shows up on Spokeo and Whitepages — get me off these sites* |
+| *Which data brokers have my info, and how do I opt out?* |
+| *File a CCPA deletion request with BeenVerified for me* |
+| *Set a cron to re-check my data-broker listings every 3 months* |
 | *Plan my meals for next week — 2 people, 30-min weeknights, vegetarian, no peanuts* |
 | *I have chicken thighs expiring Tuesday and a CSA box of greens — build my week around those* |
 | *周日做一次大采购 + 备菜，给我排 7 天* |
