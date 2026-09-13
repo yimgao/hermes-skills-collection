@@ -174,6 +174,7 @@ This is a meta-skill — helps you find the right skill for whatever you want to
 | **net-worth-tracker** | Balance-sheet tracker — log assets/liabilities by chat, monthly snapshots, trend chart, debt-payoff avalanche vs snowball |
 | **tax-prep-assistant** | Year-round US tax assistant — log deductible expenses by chat, auto-categorize Schedule A/C, missed-write-off detector, quarterly-estimate reminders |
 | **investment-portfolio-tracker** | Track investment positions by chat — buy/sell lots, cost basis, unrealized P/L, target-vs-actual allocation, rebalance suggestions, tax-loss harvesting candidates |
+| **bill-negotiator** | Lower recurring bills by chat — telecom, insurance, medical, gym, streaming, rent. Industry playbooks, retention-dept routing, anchoring scripts, itemized-bill audits, charity-care templates, win/loss ledger |
 
 ### 🔒 Security
 | Skill | When to Use |

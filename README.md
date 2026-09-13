@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**104 skills · 19 categories**
+**105 skills · 19 categories**
 
 ---
 
@@ -25,7 +25,7 @@ hermes-skills-collection/
 ├── learning/          ← 学习规划类 (4)
 ├── lifestyle/         ← 生活出行类 (18)
 ├── utility/           ← 系统工具类 (6)
-├── finance/           ← 个人财务类 (5)
+├── finance/           ← 个人财务类 (6)
 ├── security/          ← 安全审计类 (4)
 ├── legal/             ← 法律合同类 (1)
 └── productivity/      ← 专注力与时间管理类 (9)
@@ -204,6 +204,7 @@ hermes-skills-collection/
 | **net-worth-tracker** | Balance-sheet tracker — log assets/liabilities by chat, monthly snapshots, trend chart, debt-payoff avalanche vs snowball, asset allocation. All local JSON. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/finance/net-worth-tracker/SKILL.md) |
 | **tax-prep-assistant** | Year-round US tax assistant — log deductible expenses by chat, auto-categorize Schedule A/C, missed-write-off detector, quarterly-estimate reminders, Schedule preview + document checklist. All local JSON. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/finance/tax-prep-assistant/SKILL.md) |
 | **investment-portfolio-tracker** | Track investment positions by chat — buy/sell lots, cost basis, unrealized P/L, target-vs-actual allocation, rebalance suggestions, dividends & interest, tax-loss harvesting candidates. All local JSON. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/finance/investment-portfolio-tracker/SKILL.md) |
+| **bill-negotiator** | Lower recurring bills by chat — telecom, insurance, medical, gym, streaming, rent. Industry playbooks, retention-dept routing, anchoring scripts, itemized-bill audits, No-Surprises-Act / IRS-501(r) charity-care citations, win/loss ledger + renewal cron. Pairs with subscription-manager. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/finance/bill-negotiator/SKILL.md) |
 
 ### 🔒 Security
 
@@ -371,6 +372,12 @@ Then prompt:
 |> *We have a `.github/pull_request_template.md` — fill it out from my branch*
 |> *Draft the GitLab MR for `fix/login-redirect-loop`, mixed CN/EN*
 |> *Is this PR breaking? Auto-detect and draft the migration section*
+|> *I've been paying Comcast $189/mo for 3 years — Spectrum quoted me $79 for the same service, can I actually get Comcast to match?*
+|> *My car insurance renewal jumped 22% — help me push back with a competitor quote*
+|> *I got a $4,200 ER bill with duplicate charges — walk me through the audit*
+|> *Draft the Verizon retention call script — I want to lower my cell bill from $135 to $90*
+|> *My gym won't let me cancel — what's the law in California?*
+|> *Set a cron to re-negotiate my cable bill in 11 months, before the promo expires*
 
 ## Skills 标准格式
 
