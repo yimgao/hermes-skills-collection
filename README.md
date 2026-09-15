@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**105 skills · 19 categories**
+**106 skills · 19 categories**
 
 ---
 
@@ -21,7 +21,7 @@ hermes-skills-collection/
 ├── content-creation/  ← 内容创作类 (9)
 ├── dev-tools/         ← 开发工具类 (10)
 ├── devops/            ← CI/CD 与自动化类 (3)
-├── ai-tools/          ← AI 工具类 (5)
+├── ai-tools/          ← AI 工具类 (6)
 ├── learning/          ← 学习规划类 (4)
 ├── lifestyle/         ← 生活出行类 (18)
 ├── utility/           ← 系统工具类 (6)
@@ -123,6 +123,7 @@ hermes-skills-collection/
 | **llm-output-validator** | Verify LLM output: facts, format, consistency. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/ai-tools/llm-output-validator/SKILL.md) |
 | **prompt-library** | Save, version, tag, search & reuse your best LLM prompts — personal prompt manager with local JSON, intent search & 1-line retrieval. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/ai-tools/prompt-library/SKILL.md) |
 | **prompt-refiner** | Turn vague/underperforming prompts into effective ones — 6 failure-mode diagnosis, R-T-C-E refactor (Role/Task/Context/Example), output-format & constraint injection, iterate-until-it-works loop. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/ai-tools/prompt-refiner/SKILL.md) |
+| **image-prompt-crafter** | Craft production-grade prompts for Midjourney v6 / DALL·E 3 / SDXL / Flux / Ideogram — 5-question intent intake, platform-specific syntax, 7-segment prompt structure, negative prompts, style recipes, batch variations, cost-saving tips. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/ai-tools/image-prompt-crafter/SKILL.md) |
 
 ### 💼 Business
 
