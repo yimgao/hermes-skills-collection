@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**106 skills · 19 categories**
+**107 skills · 19 categories**
 
 ---
 
@@ -139,6 +139,7 @@ hermes-skills-collection/
 |-------|-------------|---------|
 | **job-hunt-pipeline** | Full job search pipeline: match → tailor → apply → track. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/career/job-hunt-pipeline/SKILL.md) |
 | **salary-negotiation-coach** | Counter-offer scripts, market-rate data, total-comp modeling, equity negotiation, BATNA strategy + freelance rate setting. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/career/salary-negotiation-coach/SKILL.md) |
+| **referral-ask-drafter** | Get warm intros without sounding transactional — channel-aware (LinkedIn / email / WeChat / WhatsApp / in-person) ask templates, referrer research, forward-blurb generator, follow-up cadence, yes/no/silence branching, conversion ledger. Pairs with job-hunt-pipeline and personal-crm. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/career/referral-ask-drafter/SKILL.md) |
 | **jd-resume-matcher** | Match resume against job description. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/career/jd-resume-matcher/SKILL.md) |
 | **resume-tailor** | Customize resume for specific jobs. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/career/resume-tailor/SKILL.md) |
 | **cover-letter-writer** | Generate job application cover letters. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/career/cover-letter-writer/SKILL.md) |
@@ -358,10 +359,19 @@ Then prompt:
 > *5pm ritual — log everything fast*
 > *Quiz me on my system-design deck — what's due today?*
 > *Add these to my spaced repetition deck and start scheduling reviews*
-> *Generate my standup*
-> *帮我生成今天的站会更新*
-> *Draft my async standup for Geekbot*
-> *Monday standup — need to cover Friday's work too*
+| *Generate my standup*
+| *帮我生成今天的站会更新*
+| *Draft my async standup for Geekbot*
+| *Monday standup — need to cover Friday's work too*
+| *I want to work at Stripe — who in my network could refer me, and what do I actually say?*
+| *Draft a LinkedIn DM to my ex-colleague Maya asking for a referral to Notion*
+| *Someone at Anthropic liked my post — should I ask for a referral?*
+| *I have zero 1st-degree contacts at OpenAI — help me build warm intros in 2 weeks*
+| *My referrer said yes — write the email so they can forward my resume in 30 seconds*
+| *I asked my old manager 14 days ago and got no reply — follow up or give up?*
+| *Show me my referral conversion rate this month*
+| *帮我写一条微信，给我前同事老王，问他能不能帮我内推字节后端高级岗*
+| *帮我起草一封内推邮件给前上司，问能不能帮我内推 Google*
 > *My passport is gone — I'm at Heathrow with an 11h flight home, walk me through what to do*
 > *我的钱包在巴塞罗那被偷了，帮我一步一步处理*
 > *I left my phone in a Lyft — what do I do first?*
