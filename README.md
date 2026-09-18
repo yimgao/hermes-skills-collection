@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**107 skills · 19 categories**
+**108 skills · 19 categories**
 
 ---
 
@@ -236,6 +236,7 @@ hermes-skills-collection/
 | **meeting-prep-brief** | Generate a one-page pre-meeting brief from chat — attendee dossier from personal-crm, open email threads, last meeting's decisions, suggested agenda, talking points, risks to flag. 5-min setup, local-only, pasteable everywhere. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/meeting-prep-brief/SKILL.md) |
 | **daily-shutdown** | Run a 2-minute end-of-day shutdown ritual — close open loops, score the day 1-10, capture tomorrow's first move, log 1-line gratitude. Pairs with daily-briefing, pomodoro, weekly-review. Local JSON, cron-ready. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/daily-shutdown/SKILL.md) |
 | **standup-status-updater** | Generate your daily standup in 30s — Yesterday/Today/Blockers synthesized from git log, pomodoro blocks, tasks & calendar. Paste-ready for Slack/Teams/Geekbot async, honest blocker + ask framing, Monday/retro variants. Local-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/standup-status-updater/SKILL.md) |
+| **draft-tracker** | Never lose a half-written draft again. Catches in-progress emails / blog posts / ideas / DMs the second you park, with stale-draft nudges, resume-in-30s, finish-or-trash audit, and weekly auto-cleanup. Local JSON, privacy-first. Pairs with daily-shutdown, daily-briefing, inbox-triage, message-tone-adjuster. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/draft-tracker/SKILL.md) |
 
 ---
 
@@ -389,6 +390,12 @@ Then prompt:
 |> *Draft the Verizon retention call script — I want to lower my cell bill from $135 to $90*
 |> *My gym won't let me cancel — what's the law in California?*
 |> *Set a cron to re-negotiate my cable bill in 11 months, before the promo expires*
+|> *Park: tough reply to Marcus about the late invoice, 3 paragraphs done, send Tuesday*
+|> *I started DMing Maya about an Anthropic referral 9 days ago — where did I put that draft?*
+|> *Show me drafts I keep avoiding — anything older than 30 days*
+|> *Resume the "angry reply to Sarah" draft and soften the tone*
+|> *Trash all drafts older than 60 days*
+|> *Convert my half-written "notes on small-model evals" to a decision-journal entry*
 
 ## Skills 标准格式
 
