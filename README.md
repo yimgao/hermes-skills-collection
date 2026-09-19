@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**108 skills · 19 categories**
+**109 skills · 19 categories**
 
 ---
 
@@ -23,7 +23,7 @@ hermes-skills-collection/
 ├── devops/            ← CI/CD 与自动化类 (3)
 ├── ai-tools/          ← AI 工具类 (6)
 ├── learning/          ← 学习规划类 (4)
-├── lifestyle/         ← 生活出行类 (18)
+├── lifestyle/         ← 生活出行类 (19)
 ├── utility/           ← 系统工具类 (6)
 ├── finance/           ← 个人财务类 (6)
 ├── security/          ← 安全审计类 (4)
@@ -184,7 +184,8 @@ hermes-skills-collection/
 | **weekly-meal-planner** | Generate a 7-day meal calendar from chat — dietary prefs, allergies, weekday time budget, pantry-first priority, variety rules, leftover linkage, consolidated shopping list with aisle grouping + quantity math. Pairs with pantry-manager and recipe-generator. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/weekly-meal-planner/SKILL.md) |
 | **renewal-reminder** | Track every expiration & renewal from chat — passport/visa/license/insurance/certs/domain/SSL/warranty/membership. Lead-time-aware renew-by dates, 6-month passport travel rule, tiered reminders, cost history, document checklist. Local JSON, privacy-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/renewal-reminder/SKILL.md) |
 | **medical-visit-companion** | End-to-end doctor visit companion — pre-visit briefing pack with symptom timeline & smart questions, live appointment mode, post-visit SOAP notes, lab/imaging result decoder, follow-up + refill reminders. Pairs with symptom-diary. Local JSON, privacy-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/medical-visit-companion/SKILL.md) |
-| **lost-item-recovery** | Emergency response when something important is lost or stolen — passport, wallet, phone, laptop, luggage, keys, car, pet. Ordered 5-min / 1-hr / 3-day playbooks, country-aware hotlines, Find-My orchestration, police-report templates, insurance-claim packet, follow-up scam check. Pairs with renewal-reminder, travel-itinerary-planner, personal-crm, phishing-link-inspector. Local-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/lost-item-recovery/SKILL.md) |
+|| **lost-item-recovery** | Emergency response when something important is lost or stolen — passport, wallet, phone, laptop, luggage, keys, car, pet. Ordered 5-min / 1-hr / 3-day playbooks, country-aware hotlines, Find-My orchestration, police-report templates, insurance-claim packet, follow-up scam check. Pairs with renewal-reminder, travel-itinerary-planner, personal-crm, phishing-link-inspector. Local-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/lost-item-recovery/SKILL.md) |
+|| **party-planner** | Plan any gathering end-to-end from chat — birthday, dinner party, holiday, baby shower, housewarming, retirement. Generates theme, guest list, invitations, budget, menu, shopping list with quantity formulas, D-countdown cooking timeline, run-of-show with owners, 3 day-of checklists, post-party thank-yous + teardown. Adapts to size (4 to 80+) and venue (home/park/venue/virtual). Pairs with gift-finder, recipe-generator, weekly-meal-planner, personal-crm. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/party-planner/SKILL.md) |
 
 ### 🔧 Utility
 
@@ -396,6 +397,12 @@ Then prompt:
 |> *Resume the "angry reply to Sarah" draft and soften the tone*
 |> *Trash all drafts older than 60 days*
 |> *Convert my half-written "notes on small-model evals" to a decision-journal entry*
+|> *I'm throwing my mom a 60th birthday dinner for 12 next Saturday — help me plan it end-to-end*
+|> *Backyard BBQ for 25 on July 4th, $300 budget, mixed group — make it easy*
+|> *Plan a 10-person NYE cocktail party at my apartment, 9pm-1am, $200 budget, decide tonight*
+|> *帮我策划一个 8 人的感恩节晚宴，3 个素食者，预算 1500 元*
+|> *Office holiday party for 40, catered, our conference room, 2-hour window — give me a run-of-show*
+|> *Make me a vegetarian-friendly baby shower for 20, 1 guest gluten-free*
 
 ## Skills 标准格式
 
