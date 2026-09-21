@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**109 skills · 19 categories**
+**110 skills · 19 categories**
 
 ---
 
@@ -23,7 +23,7 @@ hermes-skills-collection/
 ├── devops/            ← CI/CD 与自动化类 (3)
 ├── ai-tools/          ← AI 工具类 (6)
 ├── learning/          ← 学习规划类 (4)
-├── lifestyle/         ← 生活出行类 (19)
+├── lifestyle/         ← 生活出行类 (20)
 ├── utility/           ← 系统工具类 (6)
 ├── finance/           ← 个人财务类 (6)
 ├── security/          ← 安全审计类 (4)
@@ -186,6 +186,7 @@ hermes-skills-collection/
 | **medical-visit-companion** | End-to-end doctor visit companion — pre-visit briefing pack with symptom timeline & smart questions, live appointment mode, post-visit SOAP notes, lab/imaging result decoder, follow-up + refill reminders. Pairs with symptom-diary. Local JSON, privacy-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/medical-visit-companion/SKILL.md) |
 || **lost-item-recovery** | Emergency response when something important is lost or stolen — passport, wallet, phone, laptop, luggage, keys, car, pet. Ordered 5-min / 1-hr / 3-day playbooks, country-aware hotlines, Find-My orchestration, police-report templates, insurance-claim packet, follow-up scam check. Pairs with renewal-reminder, travel-itinerary-planner, personal-crm, phishing-link-inspector. Local-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/lost-item-recovery/SKILL.md) |
 || **party-planner** | Plan any gathering end-to-end from chat — birthday, dinner party, holiday, baby shower, housewarming, retirement. Generates theme, guest list, invitations, budget, menu, shopping list with quantity formulas, D-countdown cooking timeline, run-of-show with owners, 3 day-of checklists, post-party thank-yous + teardown. Adapts to size (4 to 80+) and venue (home/park/venue/virtual). Pairs with gift-finder, recipe-generator, weekly-meal-planner, personal-crm. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/party-planner/SKILL.md) |
+| **moving-relocator** | Plan any residential move end-to-end from chat — apartment swap, cross-country, or international relocation. Generates 8-week timeline (or compressed 4-week), decluttering plan, room-by-room packing inventory with color labels, mover quote comparison (DIY / pod / hybrid / full-service), 3 day-of checklists (move-out / transit / move-in), 30+ service address-change sweep, utility setup at origin + destination, school / medical / pet transfer packets, hidden-cost audit, and security-deposit-return playbook. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/moving-relocator/SKILL.md) |
 
 ### 🔧 Utility
 
@@ -401,8 +402,15 @@ Then prompt:
 |> *Backyard BBQ for 25 on July 4th, $300 budget, mixed group — make it easy*
 |> *Plan a 10-person NYE cocktail party at my apartment, 9pm-1am, $200 budget, decide tonight*
 |> *帮我策划一个 8 人的感恩节晚宴，3 个素食者，预算 1500 元*
-|> *Office holiday party for 40, catered, our conference room, 2-hour window — give me a run-of-show*
-|> *Make me a vegetarian-friendly baby shower for 20, 1 guest gluten-free*
+| Office holiday party for 40, catered, our conference room, 2-hour window — give me a run-of-show |
+| Make me a vegetarian-friendly baby shower for 20, 1 guest gluten-free |
+| I'm moving August 15, Boston to Austin, 2BR, with a cat, 5 weeks out — give me a full plan |
+| Long-distance move — 2BR + 2 teens — employer covers up to $8k, help me maximize |
+| 帮我整理一下搬家清单。Shanghai → Singapore, October, 3BR + 1 dog, employer-paid relocation |
+| I'm downsizing 3BR → 1BR — how do I decide what stays? |
+| I have 3 mover quotes ranging from $1,800 to $4,200 — help me pick without getting scammed |
+| Wifi gap: I move in 8 days, what do I do about internet at the new place? |
+| My landlord owes me a $2,400 deposit back, hasn't responded in 25 days (CA) |
 
 ## Skills 标准格式
 
