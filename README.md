@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**111 skills · 19 categories**
+**114 skills · 19 categories**
 
 ---
 
@@ -23,12 +23,12 @@ hermes-skills-collection/
 ├── devops/            ← CI/CD 与自动化类 (3)
 ├── ai-tools/          ← AI 工具类 (6)
 ├── learning/          ← 学习规划类 (4)
-├── lifestyle/         ← 生活出行类 (20)
+├── lifestyle/         ← 生活出行类 (21)
 ├── utility/           ← 系统工具类 (6)
 ├── finance/           ← 个人财务类 (6)
 ├── security/          ← 安全审计类 (4)
-├── legal/             ← 法律合同类 (1)
-└── productivity/      ← 专注力与时间管理类 (9)
+├── legal/             ← 法律合同类 (2)
+└── productivity/      ← 专注力与时间管理类 (10)
 ```
 
 ---
@@ -185,9 +185,10 @@ hermes-skills-collection/
 | **weekly-meal-planner** | Generate a 7-day meal calendar from chat — dietary prefs, allergies, weekday time budget, pantry-first priority, variety rules, leftover linkage, consolidated shopping list with aisle grouping + quantity math. Pairs with pantry-manager and recipe-generator. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/weekly-meal-planner/SKILL.md) |
 | **renewal-reminder** | Track every expiration & renewal from chat — passport/visa/license/insurance/certs/domain/SSL/warranty/membership. Lead-time-aware renew-by dates, 6-month passport travel rule, tiered reminders, cost history, document checklist. Local JSON, privacy-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/renewal-reminder/SKILL.md) |
 | **medical-visit-companion** | End-to-end doctor visit companion — pre-visit briefing pack with symptom timeline & smart questions, live appointment mode, post-visit SOAP notes, lab/imaging result decoder, follow-up + refill reminders. Pairs with symptom-diary. Local JSON, privacy-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/medical-visit-companion/SKILL.md) |
-|| **lost-item-recovery** | Emergency response when something important is lost or stolen — passport, wallet, phone, laptop, luggage, keys, car, pet. Ordered 5-min / 1-hr / 3-day playbooks, country-aware hotlines, Find-My orchestration, police-report templates, insurance-claim packet, follow-up scam check. Pairs with renewal-reminder, travel-itinerary-planner, personal-crm, phishing-link-inspector. Local-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/lost-item-recovery/SKILL.md) |
-|| **party-planner** | Plan any gathering end-to-end from chat — birthday, dinner party, holiday, baby shower, housewarming, retirement. Generates theme, guest list, invitations, budget, menu, shopping list with quantity formulas, D-countdown cooking timeline, run-of-show with owners, 3 day-of checklists, post-party thank-yous + teardown. Adapts to size (4 to 80+) and venue (home/park/venue/virtual). Pairs with gift-finder, recipe-generator, weekly-meal-planner, personal-crm. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/party-planner/SKILL.md) |
+| **lost-item-recovery** | Emergency response when something important is lost or stolen — passport, wallet, phone, laptop, luggage, keys, car, pet. Ordered 5-min / 1-hr / 3-day playbooks, country-aware hotlines, Find-My orchestration, police-report templates, insurance-claim packet, follow-up scam check. Pairs with renewal-reminder, travel-itinerary-planner, personal-crm, phishing-link-inspector. Local-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/lost-item-recovery/SKILL.md) |
+| **party-planner** | Plan any gathering end-to-end from chat — birthday, dinner party, holiday, baby shower, housewarming, retirement. Generates theme, guest list, invitations, budget, menu, shopping list with quantity formulas, D-countdown cooking timeline, run-of-show with owners, 3 day-of checklists, post-party thank-yous + teardown. Adapts to size (4 to 80+) and venue (home/park/venue/virtual). Pairs with gift-finder, recipe-generator, weekly-meal-planner, personal-crm. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/party-planner/SKILL.md) |
 | **moving-relocator** | Plan any residential move end-to-end from chat — apartment swap, cross-country, or international relocation. Generates 8-week timeline (or compressed 4-week), decluttering plan, room-by-room packing inventory with color labels, mover quote comparison (DIY / pod / hybrid / full-service), 3 day-of checklists (move-out / transit / move-in), 30+ service address-change sweep, utility setup at origin + destination, school / medical / pet transfer packets, hidden-cost audit, and security-deposit-return playbook. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/moving-relocator/SKILL.md) |
+| **receipt-vault** | Digitize every paper and email receipt, warranty card, serial number, and proof-of-purchase — searchable vault, warranty-expiry warnings, tax-deductible auto-tagging, insurance-claim exports (homeowners / auto / travel), move-in / move-out inventory packet, return-window countdown, depreciation-aware valuation. Local-first JSON, OCR pipeline, 18 default categories. Pairs with home-maintenance-tracker, personal-expense-tracker, renewal-reminder, tax-prep-assistant, moving-relocator. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/receipt-vault/SKILL.md) |
 
 ### 🔧 Utility
 
@@ -225,6 +226,7 @@ hermes-skills-collection/
 | Skill | Description | Install |
 |-------|-------------|---------|
 | **contract-reviewer** | Review any contract — NDA, freelance SOW, SaaS TOS, lease, offer letter. Risk-scored redline + missing-protections checklist + email-ready negotiation talking points. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/legal/contract-reviewer/SKILL.md) |
+| **contract-drafter** | Draft a balanced first-version contract from chat — NDA, freelance SOW, MSA, partnership, lease addendum, equity advisor letter, influencer deal, content creator, consulting, contractor. 10 templates, role-aware (vendor vs. client flips), jurisdiction-aware, inline red-flag annotations, peer-review checklist. Sister to contract-reviewer. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/legal/contract-drafter/SKILL.md) |
 
 ### ⚡ Productivity
 
@@ -240,6 +242,7 @@ hermes-skills-collection/
 | **daily-shutdown** | Run a 2-minute end-of-day shutdown ritual — close open loops, score the day 1-10, capture tomorrow's first move, log 1-line gratitude. Pairs with daily-briefing, pomodoro, weekly-review. Local JSON, cron-ready. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/daily-shutdown/SKILL.md) |
 | **standup-status-updater** | Generate your daily standup in 30s — Yesterday/Today/Blockers synthesized from git log, pomodoro blocks, tasks & calendar. Paste-ready for Slack/Teams/Geekbot async, honest blocker + ask framing, Monday/retro variants. Local-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/standup-status-updater/SKILL.md) |
 | **draft-tracker** | Never lose a half-written draft again. Catches in-progress emails / blog posts / ideas / DMs the second you park, with stale-draft nudges, resume-in-30s, finish-or-trash audit, and weekly auto-cleanup. Local JSON, privacy-first. Pairs with daily-shutdown, daily-briefing, inbox-triage, message-tone-adjuster. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/draft-tracker/SKILL.md) |
+| **quarterly-goals-coach** | Plan, track, and ship 90-day OKRs from chat — set 3-5 objectives per quarter with measurable KRs, weekly confidence check-ins (0-10), traffic-light status (on_track / at_risk / off_track / done / killed), 0.0-1.0 progress scoring, week-6 mid-quarter ship-or-kill audit, end-of-quarter retrospective that seeds next quarter. Silent-decay detection, repeat-KR alerts, cross-skill hooks to weekly-review / standup / pomodoro / bookshelf. Local JSON, privacy-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/quarterly-goals-coach/SKILL.md) |
 
 ---
 
@@ -302,6 +305,10 @@ Then prompt:
 | *What's due for home maintenance this month?*
 | *My water heater warranty expired — what should I do?*
 | *Generate my fall home maintenance playbook*
+| *Throw this receipt into the vault* (paste image)
+| *Log: Sony WH-1000XM5, Best Buy, $399, 1-yr warranty*
+| *What warranties are expiring in the next 90 days?*
+| *Compile my auto-insurance theft-claim packet*
 | *Morning briefing*
 | *Give me my daily brief*
 | *Plan my Tuesday*
