@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**114 skills · 19 categories**
+**115 skills · 19 categories**
 
 ---
 
@@ -16,7 +16,7 @@ hermes-skills-collection/
 ├── monitoring/        ← 定时监控类 (3)
 ├── business/          ← 商业计划类 (3)
 ├── career/            ← 求职求职类 (6)
-├── communication/     ← 沟通写作类 (4)
+├── communication/     ← 沟通写作类 (5)
 ├── data-analysis/     ← 数据分析类 (6)
 ├── content-creation/  ← 内容创作类 (9)
 ├── dev-tools/         ← 开发工具类 (10)
@@ -154,6 +154,7 @@ hermes-skills-collection/
 | **presentation-helper** | Structure presentations from notes/content. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/communication/presentation-helper/SKILL.md) |
 | **meeting-minutes-generator** | Transform raw notes/transcripts into structured minutes with actions & decisions. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/communication/meeting-minutes-generator/SKILL.md) |
 | **message-tone-adjuster** | Rewrite any draft message in the right tone — polite, assertive, diplomatic decline, gentle nudge, apology, formal, casual. Chinese/English workplace culture adaptation. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/communication/message-tone-adjuster/SKILL.md) |
+| **difficult-conversation-coach** | Rehearse high-stakes conversations before you have them — pay-raise ask, quitting, critical feedback, boundaries with family, breakup, roommate conflict, telling bad news, apologizing. Situation intake (8 Qs), DEAR MAN / NVC / SBI / Radical Candor frameworks, 30-sec opener script, objection prediction, multi-round role-play with escalating pushback (L1→L5), printable conversation card + post-conversation debrief. Local, private. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/communication/difficult-conversation-coach/SKILL.md) |
 
 ### 📚 Learning
 
