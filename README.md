@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**115 skills · 19 categories**
+**116 skills · 19 categories**
 
 ---
 
@@ -15,7 +15,7 @@ hermes-skills-collection/
 ├── web-analysis/      ← Web 技术分析类 (2)
 ├── monitoring/        ← 定时监控类 (3)
 ├── business/          ← 商业计划类 (3)
-├── career/            ← 求职求职类 (6)
+├── career/            ← 求职求职类 (7)
 ├── communication/     ← 沟通写作类 (5)
 ├── data-analysis/     ← 数据分析类 (6)
 ├── content-creation/  ← 内容创作类 (9)
@@ -24,11 +24,11 @@ hermes-skills-collection/
 ├── ai-tools/          ← AI 工具类 (6)
 ├── learning/          ← 学习规划类 (4)
 ├── lifestyle/         ← 生活出行类 (21)
-├── utility/           ← 系统工具类 (6)
+├── utility/           ← 系统工具类 (7)
 ├── finance/           ← 个人财务类 (6)
 ├── security/          ← 安全审计类 (4)
 ├── legal/             ← 法律合同类 (2)
-└── productivity/      ← 专注力与时间管理类 (10)
+└── productivity/      ← 专注力与时间管理类 (11)
 ```
 
 ---
@@ -201,6 +201,7 @@ hermes-skills-collection/
 | **format-converter** | Convert between data formats (JSON/CSV/XML/YAML). | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/utility/format-converter/SKILL.md) |
 | **pdf-toolkit** | Extract text & tables, merge, split, rotate, redact, fill forms, watermark, compress, encrypt — no GUI, no upload. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/utility/pdf-toolkit/SKILL.md) |
 | **browser-bookmark-cleaner** | Clean exported browser bookmarks locally: normalize URLs, detect duplicates, audit dead links, suggest tags, and generate a reviewable report without auto-deleting. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/utility/browser-bookmark-cleaner/SKILL.md) |
+| **image-batch-toolkit** | Batch-process images from the terminal — compress (50–90%), resize, convert (HEIC/WebP/AVIF/PNG/JPG), generate thumbnails, strip EXIF/GPS, watermark, batch-rename, build contact sheets, and audit folder bloat/duplicates. Pillow + macOS `sips` + `cwebp`, target-size export ("make it under 2 MB"), zero upload. Local-first. Pairs with file-organizer, pdf-toolkit, disk-cleanup-advisor, screenshot-to-report. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/utility/image-batch-toolkit/SKILL.md) |
 
 ### 💰 Finance
 
@@ -419,7 +420,10 @@ Then prompt:
 | I'm downsizing 3BR → 1BR — how do I decide what stays? |
 | I have 3 mover quotes ranging from $1,800 to $4,200 — help me pick without getting scammed |
 | Wifi gap: I move in 8 days, what do I do about internet at the new place? |
-| My landlord owes me a $2,400 deposit back, hasn't responded in 25 days (CA) |
+My landlord owes me a $2,400 deposit back, hasn't responded in 25 days (CA)
+Compress this folder of 148 wedding photos so it fits in an email, keep originals
+Convert all the HEIC files in ~/Pictures/listing to JPG and strip the GPS before I post them
+这批产品图太大了，帮我压到每张 2MB 以内，再生成 400px 的方形缩略图
 
 ## Skills 标准格式
 
