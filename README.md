@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**116 skills · 19 categories**
+**117 skills · 19 categories**
 
 ---
 
@@ -28,7 +28,7 @@ hermes-skills-collection/
 ├── finance/           ← 个人财务类 (6)
 ├── security/          ← 安全审计类 (4)
 ├── legal/             ← 法律合同类 (2)
-└── productivity/      ← 专注力与时间管理类 (11)
+└── productivity/      ← 专注力与时间管理类 (12)
 ```
 
 ---
@@ -245,6 +245,7 @@ hermes-skills-collection/
 | **standup-status-updater** | Generate your daily standup in 30s — Yesterday/Today/Blockers synthesized from git log, pomodoro blocks, tasks & calendar. Paste-ready for Slack/Teams/Geekbot async, honest blocker + ask framing, Monday/retro variants. Local-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/standup-status-updater/SKILL.md) |
 | **draft-tracker** | Never lose a half-written draft again. Catches in-progress emails / blog posts / ideas / DMs the second you park, with stale-draft nudges, resume-in-30s, finish-or-trash audit, and weekly auto-cleanup. Local JSON, privacy-first. Pairs with daily-shutdown, daily-briefing, inbox-triage, message-tone-adjuster. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/draft-tracker/SKILL.md) |
 | **quarterly-goals-coach** | Plan, track, and ship 90-day OKRs from chat — set 3-5 objectives per quarter with measurable KRs, weekly confidence check-ins (0-10), traffic-light status (on_track / at_risk / off_track / done / killed), 0.0-1.0 progress scoring, week-6 mid-quarter ship-or-kill audit, end-of-quarter retrospective that seeds next quarter. Silent-decay detection, repeat-KR alerts, cross-skill hooks to weekly-review / standup / pomodoro / bookshelf. Local JSON, privacy-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/quarterly-goals-coach/SKILL.md) |
+| **deep-work-canvas** | One living Markdown file per project — Goal · Scope · Current Focus · Open Loops · Decisions · Blockers · Parking Lot · Log. `today: <project>` switches the focus pointer, `note:`/`log:`/`decide:`/`block:`/`focus:`/`done:` file anything in one line, end-of-day rolls loops forward, weekly snapshot reports per-canvas velocity across every project. Dormancy radar (14d/30d/90d), Mermaid state diagram, validator + snapshot scripts. Local-first, portable, privacy-first. Pairs with daily-briefing, daily-shutdown, draft-tracker, decision-journal, weekly-review, pomodoro-coach. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/deep-work-canvas/SKILL.md) |
 
 ---
 
