@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**117 skills · 19 categories**
+**118 skills · 19 categories**
 
 ---
 
@@ -114,6 +114,7 @@ hermes-skills-collection/
 | **report-formatter** | Format analysis reports for sharing. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/content-creation/report-formatter/SKILL.md) |
 | **linkedin-post-generator** | Hook-driven LinkedIn posts. ≤3000 chars, white-space optimized, algorithm-aware CTAs. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/content-creation/linkedin-post-generator/SKILL.md) |
 | **youtube-script-writer** | Retention-engineered YouTube scripts — 8s hook, open loops, pattern interrupts, B-roll cues, SEO metadata bundle. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/content-creation/youtube-script-writer/SKILL.md) |
+| **newsletter-writer** | Author a send-ready original newsletter from chat — voice-locked 5-section template (hook/lead/shorts/deep/sign-off), subject-line A/B, sponsor-slot planning, 4 platform outputs (Substack/Beehiiv/ConvertKit/Mailchimp + plain-text), editorial rubric, recycle ledger. Pairs with brand-voice-generator, content-repurposer, newsletter-digest. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/content-creation/newsletter-writer/SKILL.md) |
 
 ### 🧠 AI Tools
 
@@ -421,10 +422,15 @@ Then prompt:
 | I'm downsizing 3BR → 1BR — how do I decide what stays? |
 | I have 3 mover quotes ranging from $1,800 to $4,200 — help me pick without getting scammed |
 | Wifi gap: I move in 8 days, what do I do about internet at the new place? |
-My landlord owes me a $2,400 deposit back, hasn't responded in 25 days (CA)
-Compress this folder of 148 wedding photos so it fits in an email, keep originals
-Convert all the HEIC files in ~/Pictures/listing to JPG and strip the GPS before I post them
-这批产品图太大了，帮我压到每张 2MB 以内，再生成 400px 的方形缩略图
+| My landlord owes me a $2,400 deposit back, hasn't responded in 25 days (CA) |
+|Compress this folder of 148 wedding photos so it fits in an email, keep originals
+|Convert all the HEIC files in ~/Pictures/listing to JPG and strip the GPS before I post them
+|这批产品图太大了，帮我压到每张 2MB 以内，再生成 400px 的方形缩略图
+| Help me write issue #47 of my Substack — topic: why I'm killing the 9am standup
+| I just launched *Counterweight* — write me the first 3 issues, voice is dry, no emoji
+| Generate 5 A/B subject lines for my "async > sync" newsletter
+| Where should the Linear sponsor slot go — after-lead, mid, or post-deep?
+| 帮我写这周的中英双语 newsletter,主题是「AI 编程工具如何让独立开发者变多」|
 
 ## Skills 标准格式
 
