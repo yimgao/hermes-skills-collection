@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**118 skills · 19 categories**
+**119 skills · 19 categories**
 
 ---
 
@@ -214,6 +214,7 @@ hermes-skills-collection/
 | **tax-prep-assistant** | Year-round US tax assistant — log deductible expenses by chat, auto-categorize Schedule A/C, missed-write-off detector, quarterly-estimate reminders, Schedule preview + document checklist. All local JSON. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/finance/tax-prep-assistant/SKILL.md) |
 | **investment-portfolio-tracker** | Track investment positions by chat — buy/sell lots, cost basis, unrealized P/L, target-vs-actual allocation, rebalance suggestions, dividends & interest, tax-loss harvesting candidates. All local JSON. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/finance/investment-portfolio-tracker/SKILL.md) |
 | **bill-negotiator** | Lower recurring bills by chat — telecom, insurance, medical, gym, streaming, rent. Industry playbooks, retention-dept routing, anchoring scripts, itemized-bill audits, No-Surprises-Act / IRS-501(r) charity-care citations, win/loss ledger + renewal cron. Pairs with subscription-manager. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/finance/bill-negotiator/SKILL.md) |
+| **equity-comp-tracker** | Track employer-granted equity (RSU / ESPP / ISO / NQSO) — vesting calendar, ISO 90-day post-term exercise radar, §83(b) window, ESPP qualifying-disposition rules, AMT modeling, net-liquidation calc, concentration vs net worth. Local JSON, privacy-first. Sister to investment-portfolio-tracker. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/finance/equity-comp-tracker/SKILL.md) |
 
 ### 🔒 Security
 
