@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**119 skills · 19 categories**
+**122 skills · 19 categories**
 
 ---
 
@@ -12,10 +12,10 @@ A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearc
 hermes-skills-collection/
 ├── meta/              ← 技能中心 (1)
 ├── research/          ← 市场调研类 (6)
-├── web-analysis/      ← Web 技术分析类 (2)
+├── web-analysis/      ← Web 技术分析类 (3)
 ├── monitoring/        ← 定时监控类 (3)
-├── business/          ← 商业计划类 (3)
-├── career/            ← 求职求职类 (7)
+├── business/          ← 商业计划类 (4)
+├── career/            ← 求职求职类 (8)
 ├── communication/     ← 沟通写作类 (5)
 ├── data-analysis/     ← 数据分析类 (6)
 ├── content-creation/  ← 内容创作类 (9)
@@ -58,6 +58,7 @@ hermes-skills-collection/
 |-------|-------------|---------|
 | **tech-stack-detector** | Detect frameworks, CDN, hosting, analytics from any URL. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/web-analysis/tech-stack-detector/SKILL.md) |
 | **seo-auditor** | Full on-page & technical SEO audit — meta tags, headings, schema, robots.txt, social tags, performance indicators. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/web-analysis/seo-auditor/SKILL.md) |
+| **accessibility-auditor** | WCAG 2.1 A/AA/AAA audit from any URL — alt text, color contrast, ARIA, semantic HTML, form labels, heading order, focus indicators, keyboard nav. Pass-rate per principle, severity-ranked findings + paste-ready fix snippets. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/web-analysis/accessibility-auditor/SKILL.md) |
 
 ### 📊 Monitoring
 
@@ -132,6 +133,7 @@ hermes-skills-collection/
 | Skill | Description | Install |
 |-------|-------------|---------|
 | **business-plan-generator** | Generate complete business plans from concept. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/business/business-plan-generator/SKILL.md) |
+| **competitor-feature-tracker** | Track 2–5 competitors' features over time — changelog/release-notes diffs, new/removed/deprecated detection, per-competitor feature matrix, gap vs. your product. Local JSON, cron-ready. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/business/competitor-feature-tracker/SKILL.md) |
 | **market-sizing** | TAM / SAM / SOM calculations with data sources. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/business/market-sizing/SKILL.md) |
 | **pitch-deck-helper** | Structure pitch deck slides for investors. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/business/pitch-deck-helper/SKILL.md) |
 
@@ -146,6 +148,7 @@ hermes-skills-collection/
 | **resume-tailor** | Customize resume for specific jobs. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/career/resume-tailor/SKILL.md) |
 | **cover-letter-writer** | Generate job application cover letters. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/career/cover-letter-writer/SKILL.md) |
 | **job-tracker** | Track job applications: company, role, status, notes. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/career/job-tracker/SKILL.md) |
+| **performance-review-writer** | Write a self-review / brag doc / promo packet from evidence, not memory — log one-line wins, harvest them from git + OKRs + canvases, score impact by scope × magnitude, run `gaps --level L5` against the next level, generate peer-feedback asks that get answered, and lint out "helped with" / "we" / fake weaknesses. Local JSON, cron-ready. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/career/performance-review-writer/SKILL.md) |
 
 ### 💬 Communication
 
@@ -432,6 +435,13 @@ Then prompt:
 | Generate 5 A/B subject lines for my "async > sync" newsletter
 | Where should the Linear sponsor slot go — after-lead, mid, or post-deep?
 | 帮我写这周的中英双语 newsletter,主题是「AI 编程工具如何让独立开发者变多」|
+| Run an accessibility audit on https://acme.com/launch — pre-launch check, WCAG AA |
+| Is stripe.com WCAG compliant? Compare a11y across stripe.com / squareup.com / adyen.com |
+| 我们站点用户反馈说屏幕阅读器读不出表单，帮我看是不是缺 label |
+> *Generate a weekly cron that pings me if the a11y score drops below 95%*
+> *下周要交年度自评了，我完全没记录 — 帮我从 git 里把今年干的事翻出来写成自评*
+> *win: 把 checkout p95 从 4.2s 砍到 2.44s，影响整个支付团队*
+> *I want to go for L5 — show me what my evidence is missing*
 
 ## Skills 标准格式
 
