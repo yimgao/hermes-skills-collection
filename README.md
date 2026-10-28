@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**122 skills · 19 categories**
+**125 skills · 19 categories**
 
 ---
 
@@ -194,6 +194,7 @@ hermes-skills-collection/
 | **party-planner** | Plan any gathering end-to-end from chat — birthday, dinner party, holiday, baby shower, housewarming, retirement. Generates theme, guest list, invitations, budget, menu, shopping list with quantity formulas, D-countdown cooking timeline, run-of-show with owners, 3 day-of checklists, post-party thank-yous + teardown. Adapts to size (4 to 80+) and venue (home/park/venue/virtual). Pairs with gift-finder, recipe-generator, weekly-meal-planner, personal-crm. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/party-planner/SKILL.md) |
 | **moving-relocator** | Plan any residential move end-to-end from chat — apartment swap, cross-country, or international relocation. Generates 8-week timeline (or compressed 4-week), decluttering plan, room-by-room packing inventory with color labels, mover quote comparison (DIY / pod / hybrid / full-service), 3 day-of checklists (move-out / transit / move-in), 30+ service address-change sweep, utility setup at origin + destination, school / medical / pet transfer packets, hidden-cost audit, and security-deposit-return playbook. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/moving-relocator/SKILL.md) |
 | **receipt-vault** | Digitize every paper and email receipt, warranty card, serial number, and proof-of-purchase — searchable vault, warranty-expiry warnings, tax-deductible auto-tagging, insurance-claim exports (homeowners / auto / travel), move-in / move-out inventory packet, return-window countdown, depreciation-aware valuation. Local-first JSON, OCR pipeline, 18 default categories. Pairs with home-maintenance-tracker, personal-expense-tracker, renewal-reminder, tax-prep-assistant, moving-relocator. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/receipt-vault/SKILL.md) |
+| **purchase-advisor** | Decide whether and what to buy — laptops, phones, appliances, cameras, furniture, e-bikes, TVs, gym memberships, any purchase over ~$200. Compares candidates on total cost of ownership (not sticker price), checks whether today's price is genuinely a good deal against your own price history, detects fake discounts, scores specs by what YOU weight, and returns a BUY / FAIR / WAIT / SKIP verdict with a pasteable decision brief. Local JSON, no account needed. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/lifestyle/purchase-advisor/SKILL.md) |
 
 ### 🔧 Utility
 
@@ -206,6 +207,7 @@ hermes-skills-collection/
 | **pdf-toolkit** | Extract text & tables, merge, split, rotate, redact, fill forms, watermark, compress, encrypt — no GUI, no upload. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/utility/pdf-toolkit/SKILL.md) |
 | **browser-bookmark-cleaner** | Clean exported browser bookmarks locally: normalize URLs, detect duplicates, audit dead links, suggest tags, and generate a reviewable report without auto-deleting. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/utility/browser-bookmark-cleaner/SKILL.md) |
 | **image-batch-toolkit** | Batch-process images from the terminal — compress (50–90%), resize, convert (HEIC/WebP/AVIF/PNG/JPG), generate thumbnails, strip EXIF/GPS, watermark, batch-rename, build contact sheets, and audit folder bloat/duplicates. Pillow + macOS `sips` + `cwebp`, target-size export ("make it under 2 MB"), zero upload. Local-first. Pairs with file-organizer, pdf-toolkit, disk-cleanup-advisor, screenshot-to-report. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/utility/image-batch-toolkit/SKILL.md) |
+| **command-journal** | Use when you remember doing something but can't remember the exact command — "how did I do X again?", "what was that ffmpeg flag", "which curl flags did I use for the S3 upload", "what config did I change to fix this 502". Ingests zsh/bash/fish shell history into a local searchable index, keeps a tagged recipe book of commands that worked (title + note + tags + cwd), and returns the exact command with its note and last-used date. Symptom→fix tagging, stale-recipe radar, Markdown cheatsheet export, cron ingestion. Local JSON, stdlib-only, 700/600 perms, zero upload. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/utility/command-journal/SKILL.md) |
 
 ### 💰 Finance
 
@@ -218,6 +220,7 @@ hermes-skills-collection/
 | **investment-portfolio-tracker** | Track investment positions by chat — buy/sell lots, cost basis, unrealized P/L, target-vs-actual allocation, rebalance suggestions, dividends & interest, tax-loss harvesting candidates. All local JSON. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/finance/investment-portfolio-tracker/SKILL.md) |
 | **bill-negotiator** | Lower recurring bills by chat — telecom, insurance, medical, gym, streaming, rent. Industry playbooks, retention-dept routing, anchoring scripts, itemized-bill audits, No-Surprises-Act / IRS-501(r) charity-care citations, win/loss ledger + renewal cron. Pairs with subscription-manager. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/finance/bill-negotiator/SKILL.md) |
 | **equity-comp-tracker** | Track employer-granted equity (RSU / ESPP / ISO / NQSO) — vesting calendar, ISO 90-day post-term exercise radar, §83(b) window, ESPP qualifying-disposition rules, AMT modeling, net-liquidation calc, concentration vs net worth. Local JSON, privacy-first. Sister to investment-portfolio-tracker. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/finance/equity-comp-tracker/SKILL.md) |
+| **insurance-shopper** | Choose the right insurance policy before you buy — auto, home, renters, health (HMO/PPO/EPO/HDHP), life, disability, pet, umbrella, gear. Decodes dense quote PDFs into a structured table, compares every quote on identical limits (not sticker price), scores coverage against what YOU actually risk, flags disqualifying red flags, and returns a BUY / SKIP verdict with a pasteable decision brief. Local JSON, stdlib-only scripts, zero upload. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/finance/insurance-shopper/SKILL.md) |
 
 ### 🔒 Security
 
@@ -439,6 +442,12 @@ Then prompt:
 | Is stripe.com WCAG compliant? Compare a11y across stripe.com / squareup.com / adyen.com |
 | 我们站点用户反馈说屏幕阅读器读不出表单，帮我看是不是缺 label |
 > *Generate a weekly cron that pings me if the a11y score drops below 95%*
+> *我上周修好了部署，现在又坏了 — 我当时到底跑了什么命令？*
+> *Search my shell history for that ffmpeg command I used to compress video*
+> *Save this as a recipe: `kubectl --namespace prod rollout restart deployment/api-gateway` — title "restart api gateway in prod", tag it k8s*
+> *Which commands do I run most often with kubectl?*
+> *整理一下我收藏的命令，导出一份 Markdown cheatsheet*
+> *What did I change to fix the nginx 502?*
 > *下周要交年度自评了，我完全没记录 — 帮我从 git 里把今年干的事翻出来写成自评*
 > *win: 把 checkout p95 从 4.2s 砍到 2.44s，影响整个支付团队*
 > *I want to go for L5 — show me what my evidence is missing*
