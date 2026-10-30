@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**125 skills · 19 categories**
+**126 skills · 19 categories**
 
 ---
 
@@ -18,17 +18,17 @@ hermes-skills-collection/
 ├── career/            ← 求职求职类 (8)
 ├── communication/     ← 沟通写作类 (5)
 ├── data-analysis/     ← 数据分析类 (6)
-├── content-creation/  ← 内容创作类 (9)
+├── content-creation/  ← 内容创作类 (10)
 ├── dev-tools/         ← 开发工具类 (10)
 ├── devops/            ← CI/CD 与自动化类 (3)
 ├── ai-tools/          ← AI 工具类 (6)
 ├── learning/          ← 学习规划类 (4)
-├── lifestyle/         ← 生活出行类 (21)
-├── utility/           ← 系统工具类 (7)
-├── finance/           ← 个人财务类 (6)
+├── lifestyle/         ← 生活出行类 (22)
+├── utility/           ← 系统工具类 (8)
+├── finance/           ← 个人财务类 (8)
 ├── security/          ← 安全审计类 (4)
 ├── legal/             ← 法律合同类 (2)
-└── productivity/      ← 专注力与时间管理类 (12)
+└── productivity/      ← 专注力与时间管理类 (13)
 ```
 
 ---
@@ -254,6 +254,7 @@ hermes-skills-collection/
 | **draft-tracker** | Never lose a half-written draft again. Catches in-progress emails / blog posts / ideas / DMs the second you park, with stale-draft nudges, resume-in-30s, finish-or-trash audit, and weekly auto-cleanup. Local JSON, privacy-first. Pairs with daily-shutdown, daily-briefing, inbox-triage, message-tone-adjuster. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/draft-tracker/SKILL.md) |
 | **quarterly-goals-coach** | Plan, track, and ship 90-day OKRs from chat — set 3-5 objectives per quarter with measurable KRs, weekly confidence check-ins (0-10), traffic-light status (on_track / at_risk / off_track / done / killed), 0.0-1.0 progress scoring, week-6 mid-quarter ship-or-kill audit, end-of-quarter retrospective that seeds next quarter. Silent-decay detection, repeat-KR alerts, cross-skill hooks to weekly-review / standup / pomodoro / bookshelf. Local JSON, privacy-first. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/quarterly-goals-coach/SKILL.md) |
 | **deep-work-canvas** | One living Markdown file per project — Goal · Scope · Current Focus · Open Loops · Decisions · Blockers · Parking Lot · Log. `today: <project>` switches the focus pointer, `note:`/`log:`/`decide:`/`block:`/`focus:`/`done:` file anything in one line, end-of-day rolls loops forward, weekly snapshot reports per-canvas velocity across every project. Dormancy radar (14d/30d/90d), Mermaid state diagram, validator + snapshot scripts. Local-first, portable, privacy-first. Pairs with daily-briefing, daily-shutdown, draft-tracker, decision-journal, weekly-review, pomodoro-coach. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/deep-work-canvas/SKILL.md) |
+| **document-briefing** | Turn any long document into a cited, actionable briefing — 60-page contract, annual report, policy PDF, deck, paper. Builds a page/slide/line-indexed map of the source, ranks evidence toward your question, writes a BLUF briefing where every claim carries a real locator, then runs an anti-hallucination check that fails on invented page numbers and on quotes that are not verbatim. PDF / DOCX / PPTX / HTML / MD / TXT, bilingual CN-EN, local-only, stdlib-first. Pairs with pdf-toolkit, ocr-and-documents, contract-reviewer, arxiv-paper-summarizer, fact-checker, meeting-prep-brief, decision-journal. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/productivity/document-briefing/SKILL.md) |
 
 ---
 
@@ -451,6 +452,11 @@ Then prompt:
 > *下周要交年度自评了，我完全没记录 — 帮我从 git 里把今年干的事翻出来写成自评*
 > *win: 把 checkout p95 从 4.2s 砍到 2.44s，影响整个支付团队*
 > *I want to go for L5 — show me what my evidence is missing*
+> *这份 62 页的供应商合同周五要签，帮我看看有什么坑，要带页码*
+> *Brief me on this 180-page annual report in one page — cite pages, the CFO will check*
+> *Extract every payment term, termination right and liability cap from this MSA*
+> *扫一下这份 policy PDF，列出所有对我们有约束力的截止日期*
+> *What are the obligations I'm taking on, and what does the document NOT answer?*
 
 ## Skills 标准格式
 
