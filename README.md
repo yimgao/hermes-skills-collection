@@ -2,7 +2,7 @@
 
 A curated collection of reusable [Hermes Agent](https://hermes-agent.nousresearch.com) skills, organized by category. Each skill provides a structured workflow that Hermes can follow to complete complex tasks.
 
-**126 skills · 19 categories**
+**127 skills · 19 categories**
 
 ---
 
@@ -24,7 +24,7 @@ hermes-skills-collection/
 ├── ai-tools/          ← AI 工具类 (6)
 ├── learning/          ← 学习规划类 (4)
 ├── lifestyle/         ← 生活出行类 (22)
-├── utility/           ← 系统工具类 (8)
+├── utility/           ← 系统工具类 (9)
 ├── finance/           ← 个人财务类 (8)
 ├── security/          ← 安全审计类 (4)
 ├── legal/             ← 法律合同类 (2)
@@ -208,6 +208,7 @@ hermes-skills-collection/
 | **browser-bookmark-cleaner** | Clean exported browser bookmarks locally: normalize URLs, detect duplicates, audit dead links, suggest tags, and generate a reviewable report without auto-deleting. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/utility/browser-bookmark-cleaner/SKILL.md) |
 | **image-batch-toolkit** | Batch-process images from the terminal — compress (50–90%), resize, convert (HEIC/WebP/AVIF/PNG/JPG), generate thumbnails, strip EXIF/GPS, watermark, batch-rename, build contact sheets, and audit folder bloat/duplicates. Pillow + macOS `sips` + `cwebp`, target-size export ("make it under 2 MB"), zero upload. Local-first. Pairs with file-organizer, pdf-toolkit, disk-cleanup-advisor, screenshot-to-report. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/utility/image-batch-toolkit/SKILL.md) |
 | **command-journal** | Use when you remember doing something but can't remember the exact command — "how did I do X again?", "what was that ffmpeg flag", "which curl flags did I use for the S3 upload", "what config did I change to fix this 502". Ingests zsh/bash/fish shell history into a local searchable index, keeps a tagged recipe book of commands that worked (title + note + tags + cwd), and returns the exact command with its note and last-used date. Symptom→fix tagging, stale-recipe radar, Markdown cheatsheet export, cron ingestion. Local JSON, stdlib-only, 700/600 perms, zero upload. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/utility/command-journal/SKILL.md) |
+| **backup-audit** | Find out whether your personal data is actually protected — before the disk dies, the laptop is stolen, or ransomware hits. Inventories your critical datasets (photos / documents / code / tax records), flags credential files sitting in unencrypted backups, checks each dataset for a real destination and a fresh-enough copy, proves recoverability with a **test-restore**, and scores you against the 3-2-1 rule. Returns a FAIL/PASS coverage table (exit 1 when coverage degrades, cron-ready) plus a pasteable Markdown audit report. Local JSON, stdlib-only, never reads file contents, zero upload. | [install](https://raw.githubusercontent.com/yimgao/hermes-skills-collection/main/utility/backup-audit/SKILL.md) |
 
 ### 💰 Finance
 
@@ -457,6 +458,12 @@ Then prompt:
 > *Extract every payment term, termination right and liability cap from this MSA*
 > *扫一下这份 policy PDF，列出所有对我们有约束力的截止日期*
 > *What are the obligations I'm taking on, and what does the document NOT answer?*
+> *我的照片备份到底靠不靠谱？帮我查一下*
+> *勒索软件来了我会不会全没了？我把重要的东西都放在 Dropbox 里*
+> *Audit my backup coverage — photos, documents, and code, with a test-restore*
+> *Check if my backup is actually restorable, not just present*
+> *生成一份备份审计报告，我要发给老板做数据安全合规*
+> *Set a cron to warn me if any dataset's backup goes stale*
 
 ## Skills 标准格式
 
